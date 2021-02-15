@@ -3,7 +3,7 @@
 ## Contents
 
 * [Rules](rules.md)
-* [Log - click here to see my progress](log.md)
+* [Log - click here to see my progress, Stand alone HTML5 page with links](https://carlo-defilippis.github.io/100-days-of-code/)
 * [FAQ](FAQ.md)
 * [Resources](resources.md)
 
