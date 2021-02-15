@@ -73,10 +73,15 @@ $(document).ready(function () {
                $('.number').val('')
                console.log(myNum)
           } else {
+               if (data.includes('-')) {
+                    let newData = data.replace('-', '')
+                    $('.roman').text('Your number ' + data + " = -" + convertToRoman(newData))
+               } else {
                $('.roman').text('Your number ' + data + " = " + convertToRoman(data))
                $('.number').val('')
                showMsg()
                console.log(myNum)
+               }
           }
      });
 
