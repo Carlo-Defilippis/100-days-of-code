@@ -71,10 +71,12 @@ $(document).ready(function () {
           if (isNaN(myNum)) {
                alert("Sorry! I can't convert letters or other characters =( Only numbers please.")
                $('.number').val('')
+               console.log(myNum)
           } else {
                $('.roman').text('Your number ' + data + " = " + convertToRoman(data))
                $('.number').val('')
                showMsg()
+               console.log(myNum)
           }
      });
 
