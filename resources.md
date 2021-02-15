@@ -37,6 +37,6 @@
 
 ## Contents
 * [Rules](rules.md)
-* [Log - click here to see my progress](log.md)
+* [Log - click here to see my progress](https://carlo-defilippis.github.io/100-days-of-code/)
 * [FAQ](FAQ.md)
 * [Resources](resources.md)
