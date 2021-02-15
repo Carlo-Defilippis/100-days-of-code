@@ -63,24 +63,18 @@ $(document).ready(function () {
      }
 
      $('.convert').click(function () {
-          let data = $('.number').val()
-          let myNum = parseInt(data)
-          console.log(convertToRoman(data))
-          console.log(myNum)
-          console.log(typeof myNum)
-          if (isNaN(myNum)) {
-               alert("Sorry! I can't convert letters or other characters =( Only numbers please.")
+          let data = $('.number').val() // Gets value of text box on html page via jQuery
+          let isnum = /^\d+$/.test(data); // Checks if string is a valid number
+          if (!isnum) {
+               alert("Sorry! I can't convert letters or other characters =( Only numbers please. P.S. The romans had no concept of zero, so there is no negatives allowed either.")
                $('.number').val('')
-               console.log(myNum)
           } else {
-               if (data.includes('-')) {
-                    let newData = data.replace('-', '')
-                    $('.roman').text('Your number ' + data + " = -" + convertToRoman(newData))
+               if (data == '0') {
+                    alert("Sorry! The romans had no concept of zero!")
                } else {
                $('.roman').text('Your number ' + data + " = " + convertToRoman(data))
                $('.number').val('')
                showMsg()
-               console.log(myNum)
                }
           }
      });
