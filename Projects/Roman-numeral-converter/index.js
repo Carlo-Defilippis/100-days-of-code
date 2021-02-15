@@ -45,7 +45,7 @@ $(document).ready(function () {
           }, {
                numeral: "I",
                value: 1
-          }];
+          }]; // Array of values and numbers to concat together to make the roman numeral
 
           for (var i = 0; i < 13; i++) {
                var j = Math.floor(remainingValue / romanNumerals[i].value); // j represents the number of times each character is needed
