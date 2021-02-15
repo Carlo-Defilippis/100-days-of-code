@@ -59,7 +59,7 @@ $(document).ready(function () {
      }
 
      function showMsg() {
-          $(".popup").fadeIn(50).fadeOut(1000)
+          $(".popup").fadeIn(50).fadeOut(2000)
      }
 
      $('.convert').click(function () {
