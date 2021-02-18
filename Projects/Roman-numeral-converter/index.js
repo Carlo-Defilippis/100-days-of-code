@@ -73,6 +73,7 @@ $(document).ready(function () {
                     alert("Sorry! The romans had no concept of zero!")
                } else {
                $('.roman').text('Your number ' + data + " = " + convertToRoman(data))
+               $('.roman').focus()
                $('.number').val('')
                showMsg()
                }

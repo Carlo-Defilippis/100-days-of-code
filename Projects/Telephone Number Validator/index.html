@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="Description" content="Roman numberal converter."/>
+<meta name="Description" content="Phone number validator."/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 <title>Roman Numeral Converter</title>
@@ -12,15 +12,16 @@
 <body>
       <div class="jumbotron">
         <a class="btn btn-primary btn-lg ml-3" href="../../index.html" role="button">Main Page</a>
-        <img src="../../100days.png" class="img-thumbnail rounded mx-auto d-block" alt="100 Days Of Code">
+        <img src="../../100days.png" class="img-thumbnail rounded mx-auto d-block" alt="100 Days Of Code" max-width='20px'>
         <br>
-        <h1 class="display-4 text-center">Roman Numeral Converter</h1>
-        <p class="lead text-center">This algorithm converts any number into a Roman Numeral.</p>
-        <p class="text-center">Day 1 of "100 days of coding".</p>
+        <h1 class="display-4 text-center">Phone number validator</h1>
+        <p class="lead text-center">This algorithm checks if a number typed by the user is a valid US phone number. Try as many combo's as you like! 
+            It is made using a regex pattern and using a .test to see if it passes, returning true or false.
+        </p>
+        <p class="text-center">Day 3 of "100 days of coding".</p>
         <hr class="my-4">
         <p></p>
       </div>
-
       <div class="container">
         <div class="row">
           <div class="col-sm">
@@ -28,14 +29,14 @@
           <div>
               <br>
           <div class="col-sm">
-              <h3>Roman Numeral</h3>
-            <p class="roman">Answer...</p>
+              <h3>Is it a valid phone number?</h3>
+            <p class="valid">Answer...</p>
           </div>
           <br>
           <br>
           <input class="number">
-          <a class="btn btn-primary btn-lg ml-3 convert" href="#" role="button">Generate Roman</a>
-          <h5 class="text-success popup">Generated Roman Numeral!</h5>
+          <a class="btn btn-primary btn-lg ml-3 checkNumber" href="#" role="button">Check Number</a>
+          <h5 class="text-success popup">Checking for valid phone number...</h5>
         </input>
         </div>
           <div class="col-sm">
