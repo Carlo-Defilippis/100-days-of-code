@@ -9,7 +9,6 @@ $(document).ready(function () {
 
       $('.checkNumber').click(function () {
         let data = $('.number').val()
-        console.log(data)
         let answer = telephoneCheck(data)
         $(".popup").fadeIn(50).fadeOut(2000)
         $('.valid').focus()
