@@ -25,3 +25,13 @@
 **Thoughts:** Using regex can be very confusing at first but I'm glad I worked on this today and brushed up my skills on it! I was able to shorten the code significantly which makes it less readable but neater.
 
 **Link to work:** [Phone Number Validator](https://carlo-defilippis.github.io/100-days-of-code/Projects/Telephone%20Number%20Validator/index.html)
+
+
+### Day 3: February 18, 2021
+
+**Today's Progress**: This is a JavaScript version of the classic game of Simon Says.
+
+**Thoughts:** This was a ton of fun to make! It works by picking a random number from 1-4 then plays a sound and flashes, this number is then added to an array that the player has to match.
+
+**Link to work:** [Simon Says](https://carlo-defilippis.github.io/100-days-of-code/Projects/Simon%20Says/index.html)
+
