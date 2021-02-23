@@ -43,3 +43,13 @@
 **Thoughts:** This was a ton of fun to figure out! I feel that this algorithm would be useful in many situations and could be modified to work for different problems easily.
 
 **Link to work:** [Palindrome Checker](https://carlo-defilippis.github.io/100-days-of-code/Projects/Palindrome%20Checker/index.html)
+
+### Day 6: February 21, 2021
+
+**Today's Progress**: Bubble Sort is a sorting algorithm which sorts or bubbles the largest number as last element at the end of each pass.  We compare each element to the one ahead of it, if the element before is smaller, we swap their places.
+
+**Thoughts:** This was a ton of fun to figure out! This basic sorting algorithm is somewhat simple but it will help me to understand future sorting algorithms.
+
+**Link to work:** [Palindrome Checker](https://carlo-defilippis.github.io/100-days-of-code/Projects/Palindrome%20Checker/index.html)
+Bubble Sort is a sorting algorithm which sorts or bubbles the largest number as last element at the end of each pass.
+          We compare each element to the one ahead of it, if the element before is smaller, we swap their places.
