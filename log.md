@@ -52,10 +52,20 @@
 
 **Link to work:** [Bubble Sorting](https://carlo-defilippis.github.io/100-days-of-code/Projects/Bubble%20Sort/index.html)
 
-### Day 7: February 21, 2021
+### Day 7: February 22, 2021
 
 **Today's Progress**: Selection Sort is and algorithm that splits the array in two parts: Sorted and Unsorted. The Sorted part is at the beginning of the array and Unsorted part afterwards. Each pass, initially we assume the first element to be the smallest then we loop through the whole array and select the smallest element. At the end of the pass we swap smallest element to the sorted array.
 
 **Thoughts:** This is another somewhat simple sorting algorithm, somewhat similar to the last project, bubble sort.
 
 **Link to work:** [Selection Sorting](https://carlo-defilippis.github.io/100-days-of-code/Projects/Selection%20Sort/index.html)
+
+### Day 8: February 23, 2021
+
+**Today's Progress**: Quick Sort is and algorithm that is an efficient, recursive divide-and-conquer 
+approach to sorting an array. In this method, a pivot value is chosen in the original array. The array is then partitioned into two subarrays of values less than and greater than the pivot value. We then combine the result of recursively calling the quick sort algorithm on both sub-arrays. This continues until the base case of an empty or single-item array is reached, which we return. The unwinding of the recursive calls return us the sorted array.
+
+**Thoughts:** This is another sorting algorithm but this time we impliment recursion. Although recursion can
+be somewhat difficult to grasp at times I feel that it is very useful in this sorting algorithm and will be in many other senarios in the future.  
+
+**Link to work:** [Quick Sorting](https://carlo-defilippis.github.io/100-days-of-code/Projects/Quick%20Sort/index.html)
