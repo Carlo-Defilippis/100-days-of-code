@@ -35,10 +35,11 @@
 
 **Link to work:** [Simon Says](https://carlo-defilippis.github.io/100-days-of-code/Projects/Simon%20Says/index.html)
 
-### Day 4: February 18, 2021
 
-**Today's Progress**: This is a JavaScript algorithm that checks if a word or a phrase is a Palindrome. It does this by first removing characters we dont want a whitespace using RegEx or "Regular Expressions" followed by making our string lowercase.  I then created a for loop with an index of i and our escape is when i is greater than the length of the string. We check each letter at the begining and end of the string moving closer to the center in each itteration and if at any point they do not match then we return a false, but if all characters match then we return true.
+### Day 5: February 18, 2021
+
+**Today's Progress**: This is a JavaScript algorithm that checks if a word or a phrase is a Palindrome. It does this by first removing characters we don't want a whitespace using RegEx or "Regular Expressions" followed by making our string lowercase. I then created a for loop with an index of i and our escape is when i is greater than the length of the string. We check each letter at the beginning and end of the string moving closer to the center in each iteration and if at any point they do not match then we return a false, but if all characters match then we return true.
 
 **Thoughts:** This was a ton of fun to figure out! I feel that this algorithm would be useful in many situations and could be modified to work for different problems easily.
 
-**Link to work:** [Palindrome Checker](https://carlo-defilippis.github.io/100-days-of-code/Projects/Simon%20Says/index.html)
+**Link to work:** [Palindrome Checker](https://carlo-defilippis.github.io/100-days-of-code/Projects/Palindrome%20Checker/index.html)
