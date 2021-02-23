@@ -32,7 +32,7 @@ $(document).ready(function () {
         $(".loading").fadeIn(50).fadeOut(2000)
         $('.arraySorted').focus()
         let array = myMainArray
-        var t0 = performance.now()
+        var t0 = performance.now().toFixed(5)
         for (let i = 0; i < array.length - 1; i++) {
             let min = i;
             for (let j = i + 1; j < array.length; j++) {
@@ -40,8 +40,8 @@ $(document).ready(function () {
             }
             swapArrays(i, min, array);
         }
-        var t1 = performance.now()
-        $('.arraySorted').text("Sorting the array took " + (t1 - t0).toFixed(3) + " milliseconds. Sorted Array: " + array)
+        var t1 = performance.now().toFixed(5)
+        $('.arraySorted').text("Sorting the array took " + (t1 - t0).toFixed(5) + " milliseconds. Sorted Array: " + array)
     })
 
 

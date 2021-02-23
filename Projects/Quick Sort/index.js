@@ -51,10 +51,10 @@ $(document).ready(function () {
         $(".loading").fadeIn(50).fadeOut(2000)
         $('.arraySorted').focus()
         let array = myMainArray
-        var t0 = performance.now()
+        var t0 = performance.now().toFixed(5)
         let answer = quickSort(array)
-        var t1 = performance.now()
-        $('.arraySorted').text("Sorting the array took " + (t1 - t0).toFixed(8) + " milliseconds. Sorted Array: " + answer)
+        var t1 = performance.now().toFixed(5)
+        $('.arraySorted').text("Sorting the array took " + (t1 - t0).toFixed(5) + " milliseconds. Sorted Array: " + answer)
     })
 })
 
