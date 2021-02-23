@@ -51,3 +51,11 @@
 **Thoughts:** This was a ton of fun to figure out! This basic sorting algorithm is somewhat simple but it will help me to understand future sorting algorithms.
 
 **Link to work:** [Bubble Sorting](https://carlo-defilippis.github.io/100-days-of-code/Projects/Bubble%20Sort/index.html)
+
+### Day 7: February 21, 2021
+
+**Today's Progress**: Selection Sort is and algorithm that splits the array in two parts: Sorted and Unsorted. The Sorted part is at the beginning of the array and Unsorted part afterwards. Each pass, initially we assume the first element to be the smallest then we loop through the whole array and select the smallest element. At the end of the pass we swap smallest element to the sorted array.
+
+**Thoughts:** This is another somewhat simple sorting algorithm, somewhat similar to the last project, bubble sort.
+
+**Link to work:** [Selection Sorting](https://carlo-defilippis.github.io/100-days-of-code/Projects/Selection%20Sort/index.html)
