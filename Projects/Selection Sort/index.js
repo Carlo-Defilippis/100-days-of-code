@@ -32,6 +32,7 @@ $(document).ready(function () {
         $(".loading").fadeIn(50).fadeOut(2000)
         $('.arraySorted').focus()
         let array = myMainArray
+        var t0 = performance.now()
         for (let i = 0; i < array.length - 1; i++) {
             let min = i;
             for (let j = i + 1; j < array.length; j++) {
@@ -39,7 +40,8 @@ $(document).ready(function () {
             }
             swapArrays(i, min, array);
         }
-        $('.arraySorted').text(array)
+        var t1 = performance.now()
+        $('.arraySorted').text("Sorting the array took " + (t1 - t0).toFixed(3) + " milliseconds. Sorted Array: " + array)
     })
 
 
