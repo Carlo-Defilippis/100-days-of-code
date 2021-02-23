@@ -54,7 +54,7 @@ $(document).ready(function () {
         var t0 = performance.now()
         let answer = quickSort(array)
         var t1 = performance.now()
-        $('.arraySorted').text("Sorting the array took " + (t1 - t0).toFixed(3) + " milliseconds. Sorted Array: " + answer)
+        $('.arraySorted').text("Sorting the array took " + (t1 - t0).toFixed(8) + " milliseconds. Sorted Array: " + answer)
     })
 })
 
