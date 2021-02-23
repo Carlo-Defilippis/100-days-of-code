@@ -41,7 +41,7 @@ $(document).ready(function () {
             swapArrays(i, min, array);
         }
         var t1 = performance.now().toFixed(5) * 5
-        $('.arraySorted').text("Sorting the array took " + (t1 - t0).toFixed(5) * 5 + " milliseconds. Sorted Array: " + array)
+        $('.arraySorted').text("Sorting the array took " + (t1 - t0).toFixed(3) + " milliseconds. Sorted Array: " + array)
     })
 
 
