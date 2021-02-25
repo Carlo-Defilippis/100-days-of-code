@@ -69,3 +69,13 @@ approach to sorting an array. In this method, a pivot value is chosen in the ori
 be somewhat difficult to grasp at times I feel that it is very useful in this sorting algorithm and will be in many other senarios in the future.  
 
 **Link to work:** [Quick Sorting](https://carlo-defilippis.github.io/100-days-of-code/Projects/Quick%20Sort/index.html)
+
+### Day 9: February 23, 2021
+
+**Today's Progress**: Today I worked on my React-Native app for iOS and Android, Cupboard Cleanout is a React-Native app that curates recipes based on the users ingredients, 
+allergies, and diet restrictions. Utilizes the Ignite Bowser CLI among many other packages. I adjusted some of the search algorithm and made the dietary list selectable. 
+
+**Thoughts:** This has been a project I have been working on for a few weeks and I have had so much fun learning the ins and outs of React-Native and I'm excited as I'm getting 
+more familiar with it as the days and nights pass coding. Another plus is learning TypeScript from starting this project as well! A very error proof language in my opinion!  
+
+**Link to work:** [React-Native App](https://carlo-defilippis.github.io/100-days-of-code/Projects/React-Native%20App/index.html)
