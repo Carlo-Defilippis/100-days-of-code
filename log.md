@@ -92,4 +92,5 @@ and some Wix specific functions.
 **Thoughts:** I had an absolute blast on today's code. It gave me a feel on how its like to work in the coorporate world and I can't wait
 to be working in this field! 
 
-**Link to work:** [React-Native App](https://carlo-defilippis.github.io/100-days-of-code/Projects/React-Native%20App/index.html)
+**Link to work:** [Wix Coding - Bindi](https://carlo-defilippis.github.io/100-days-of-code/Projects/Bindi%20Zip%20Codes/index.html)
+
