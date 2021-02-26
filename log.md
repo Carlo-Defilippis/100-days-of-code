@@ -79,3 +79,17 @@ allergies, and diet restrictions. Utilizes the Ignite Bowser CLI among many othe
 more familiar with it as the days and nights pass coding. Another plus is learning TypeScript from starting this project as well! A very error proof language in my opinion!  
 
 **Link to work:** [React-Native App](https://carlo-defilippis.github.io/100-days-of-code/Projects/React-Native%20App/index.html)
+
+### Day 10: February 24, 2021
+
+**Today's Progress**: This is a video showcasing some of the work I did today on a desert companies website called "Bindi" where
+my sister works as a Marketing Manager.  Bindi is an Italian desert company that deals with deliveries in many metropolitan areas.  
+Because of this, they were looking to add a feature on their website that would allow a user to enter the zip code of where they were 
+located and immedietly inform them if they could recieve deliveries.  I added this feature by reading the documentation for the wix/velo 
+code and was able to make a very neat and sleek designed way of achieving this. This involved using functions such as .show(), .onClick(), 
+and some Wix specific functions.
+
+**Thoughts:** I had an absolute blast on today's code. It gave me a feel on how its like to work in the coorporate world and I can't wait
+to be working in this field! 
+
+**Link to work:** [React-Native App](https://carlo-defilippis.github.io/100-days-of-code/Projects/React-Native%20App/index.html)
