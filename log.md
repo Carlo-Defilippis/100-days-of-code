@@ -94,3 +94,33 @@ to be working in this field!
 
 **Link to work:** [Wix Coding - Bindi](https://carlo-defilippis.github.io/100-days-of-code/Projects/Bindi%20Zip%20Codes/index.html)
 
+### Day 11: February 24, 2021
+
+**Today's Progress**: Today I wrote a python program using dependancies psaw, datetime, re, requests, numpy, pandas, and yfinance that search the upcoming tob r/wallstreetbets post and
+display a list of webpages with their current stock market charts for the past week.
+
+**Thoughts:** This was really fun to figure out mostly because I am new to python but it is a very interesting and versitile language to use. I'm hoping to expand this project to
+a user friendly website in the future that can track trending stocks mentioned on wallstreetbets subreddit and maybe maybe more in the future. 
+
+**Link to work:** [Reddit Wallstreetbets Ticker Checker](https://github.com/Carlo-Defilippis/100-days-of-code/tree/master/Projects/WSB%20Tracker)
+
+100 Days Of Code, Day 11 of 100:
+
+### Day 10: February 26, 2021
+
+**Today's Progress**: Today I wrote a python program using dependancies psaw, datetime, re, requests, numpy, pandas, and yfinance that search the upcoming top r/wallstreetbets post and
+display a list of webpages with their current stock market charts for the past week.  In the future I look forward to adding more parameters and filters to make the results more refined.
+
+**Thoughts:** This was really fun to figure out mostly because I am new to python but it is a very interesting and versitile language to use. I'm hoping to expand this project to
+a user friendly website in the future that can track trending stocks mentioned on wallstreetbets subreddit and maybe maybe more in the future. 
+
+**Link to work:** https://github.com/Carlo-Defilippis/100-days-of-code/tree/master/Projects/WSB%20Tracker
+
+#100DaysOfCode
+#persistent
+#coding
+#opensource
+#JavaScript
+#Python
+#resources
+#programming
