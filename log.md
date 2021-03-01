@@ -104,17 +104,23 @@ a user friendly website in the future that can track trending stocks mentioned o
 
 **Link to work:** [Reddit Wallstreetbets Ticker Checker](https://github.com/Carlo-Defilippis/100-days-of-code/tree/master/Projects/WSB%20Tracker)
 
-100 Days Of Code, Day 11 of 100:
+### Day 11: February 24, 2021
 
-### Day 10: February 26, 2021
+**Today's Progress**: Today I wrote an algorithm that sorts an array using the merge sort method. Like Quick Sort, It works on the principle of Divide and Conquer. Merge sort repeatedly breaks down a list into several sublists until each sublist consists of a single element and merging those sublists in a manner that results into a sorted list.
 
-**Today's Progress**: Today I wrote a python program using dependancies psaw, datetime, re, requests, numpy, pandas, and yfinance that search the upcoming top r/wallstreetbets post and
-display a list of webpages with their current stock market charts for the past week.  In the future I look forward to adding more parameters and filters to make the results more refined.
+**Thoughts:** This was a nice finale to my sorting algorithm practices from the past few days. I look forward to moving forward and working with data structures soon in the future.
 
-**Thoughts:** This was really fun to figure out mostly because I am new to python but it is a very interesting and versitile language to use. I'm hoping to expand this project to
-a user friendly website in the future that can track trending stocks mentioned on wallstreetbets subreddit and maybe maybe more in the future. 
+**Link to work:** [Merge Sort](https://carlo-defilippis.github.io/100-days-of-code/Projects/Merge%20Sort/index.html)
 
-**Link to work:** https://github.com/Carlo-Defilippis/100-days-of-code/tree/master/Projects/WSB%20Tracker
+100 Days Of Code, Day 12 of 100:
+
+### Day 12: February 26, 2021
+
+**Today's Progress**: Today I wrote an algorithm that sorts an array using the merge sort method. Like Quick Sort, It works on the principle of Divide and Conquer. Merge sort repeatedly breaks down a list into several sublists until each sublist consists of a single element and merging those sublists in a manner that results into a sorted list.
+
+**Thoughts:** This was a nice finale to my sorting algorithm practices from the past few days. I look forward to moving forward and working with data structures soon in the future.
+
+**Link to work:** https://carlo-defilippis.github.io/100-days-of-code/Projects/Merge%20Sort/index.html
 
 #100DaysOfCode
 #persistent
