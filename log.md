@@ -114,7 +114,7 @@ a user friendly website in the future that can track trending stocks mentioned o
 
 100 Days Of Code, Day 12 of 100:
 
-### Day 12: February 26, 2021
+### Day 12: March 1, 2021
 
 **Today's Progress**: Today I wrote an algorithm that sorts an array using the merge sort method. Like Quick Sort, It works on the principle of Divide and Conquer. Merge sort repeatedly breaks down a list into several sublists until each sublist consists of a single element and merging those sublists in a manner that results into a sorted list.
 
