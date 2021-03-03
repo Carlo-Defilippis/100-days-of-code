@@ -104,11 +104,21 @@ a user friendly website in the future that can track trending stocks mentioned o
 
 **Link to work:** [Reddit Wallstreetbets Ticker Checker](https://github.com/Carlo-Defilippis/100-days-of-code/tree/master/Projects/WSB%20Tracker)
 
-### Day 11: February 24, 2021
+### Day 12: March 1, 2021
 
 **Today's Progress**: Today I wrote an algorithm that sorts an array using the merge sort method. Like Quick Sort, It works on the principle of Divide and Conquer. Merge sort repeatedly breaks down a list into several sublists until each sublist consists of a single element and merging those sublists in a manner that results into a sorted list.
 
 **Thoughts:** This was a nice finale to my sorting algorithm practices from the past few days. I look forward to moving forward and working with data structures soon in the future.
+
+**Link to work:** [Merge Sort](https://carlo-defilippis.github.io/100-days-of-code/Projects/Merge%20Sort/index.html)
+
+### Day 13: March 2, 2021
+
+**Today's Progress**: Today I am doing a total rework of my online portfolio that features some of my recent work. The base technologies I am using today are React and the gatsby cli. 
+Gatsby is used to build static sites that are Progressive Web Apps, following the latest web standards, and are optimized to be highly performant. It makes use of the latest and popular technologies including ReactJS, Webpack, GraphQL, modern ES6+ JavaScript and CSS.
+
+**Thoughts:** I'm excited to redo my portfolio with performance in mind, also the responsivness and style is exciting to experiment with. As industry standards continue to evolve, I'm ready to learn
+and become proficient in upcoming technolgies!
 
 **Link to work:** [Merge Sort](https://carlo-defilippis.github.io/100-days-of-code/Projects/Merge%20Sort/index.html)
 
