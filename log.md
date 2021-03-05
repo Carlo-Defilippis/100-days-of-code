@@ -136,6 +136,14 @@ a user friendly website in the future that can track trending stocks mentioned o
 
 **Today's Progress**: More portfolio customization, will upload final product when finished.
 
+### Day 16: March 5, 2021
+
+**Today's Progress**: This project draws squares on a grid of 10x10 making 100 boxes.  We then color in the boxes individually by getting the top left point of each box and filling in the rectangle space of 50px by 50px with either green or white.  The animations are visualized smoothly by using async function to pause 70ms between each iteration.
+
+**Thoughts:** I had a lot of fun taking a little time away from my portfolio to do todays project! I have had little experience with canvas in javascript so I am looking forward to learning more in the future.
+
+**Link to work:** [Canvas Manipulation with colors](https://carlo-defilippis.github.io/100-days-of-code/Projects/Canvas%20Manipulation/index.html)
+
 100 Days Of Code, Day 16 of 100:
 
 ### Day 16: March 5, 2021
@@ -144,7 +152,7 @@ a user friendly website in the future that can track trending stocks mentioned o
 
 **Thoughts:** I had a lot of fun taking a little time away from my portfolio to do todays project! I have had little experience with canvas in javascript so I am looking forward to learning more in the future.
 
-**Link to work:** [Canvas Manipulation with colors](https://carlo-defilippis.github.io/100-days-of-code/Projects/React%20Portfolio%20Day%201/index.html)
+**Link to work:** https://carlo-defilippis.github.io/100-days-of-code/Projects/Canvas%20Manipulation/index.html
 
 #100DaysOfCode
 #persistent
