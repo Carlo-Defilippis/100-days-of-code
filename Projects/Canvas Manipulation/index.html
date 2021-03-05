@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Canvas Manipulation with colors."/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+<title>Canvas Manipulation with colors</title>
+</head>
+<body>
+      <div class="jumbotron">
+        <a class="btn btn-primary btn-lg ml-3" href="../../index.html" role="button">Main Page</a>
+        <h1 class="display-4 text-center">Canvas Manipulation with colors</h1>
+        <p class="lead text-center">This project draws squares on a grid of 10x10 making 100 boxes.  We then color in the boxes individually by
+            getting the top left point of each box and filling in the rectangle space of 50px by 50px with either green or white.  The animations
+            are visualized smoothly by using async function to pause 70ms between each iteration.
+        </p>
+        <p class="text-center">Day 13 of "100 days of coding".</p>
+        <hr class="my-4">
+        <p></p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+          </div>
+          <div>
+          <div class="col-sm text-wrap">
+            <canvas id="myCanvas" width="501" height="501"></canvas>
+          </div>
+          <p class="myRandomArray text-danger text-wrap text-break" style="width: 20rem;">
+        </p>
+        <a class="btn btn-primary btn-lg ml-1 mr-1 addNumbers" href="#" role="button">Color In Squares</a>
+        <a class="btn btn-primary btn-lg ml-1 mr-1 sortArray" href="#" role="button">Erase Square Color</a>
+
+        <br>
+        </div>
+        <div>
+        <div class="col-sm">
+        </div>
+      </div>
+          <div class="col-sm">
+          </div>
+        </div>
+        <br>
+        <br>
+      </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+<script src="./index.js"></script>
+</body>
+</html>

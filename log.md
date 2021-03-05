@@ -114,23 +114,37 @@ a user friendly website in the future that can track trending stocks mentioned o
 
 ### Day 13: March 2, 2021
 
-**Today's Progress**: Today I am doing a total rework of my online portfolio that features some of my recent work. The base technologies I am using today are React and the gatsby cli. 
-Gatsby is used to build static sites that are Progressive Web Apps, following the latest web standards, and are optimized to be highly performant. It makes use of the latest and popular technologies including ReactJS, Webpack, GraphQL, modern ES6+ JavaScript and CSS.
+**Today's Progress**: Today I am doing a total rework of my online portfolio that features some of my recent work. The base technologies I am using today are React and the gatsby cli. Gatsby is used to build static sites that are Progressive Web Apps, following the latest web standards, and are optimized to be highly performant. It makes use of the latest and popular technologies including ReactJS, Webpack, GraphQL, modern ES6+ JavaScript and CSS.
 
-**Thoughts:** I'm excited to redo my portfolio with performance in mind, also the responsivness and style is exciting to experiment with. As industry standards continue to evolve, I'm ready to learn
-and become proficient in upcoming technolgies!
+**Thoughts:** I'm excited to redo my portfolio with performance in mind, also the responsivness and style is exciting to experiment with. As industry standards continue to evolve, I'm ready to learn and become proficient in upcoming technolgies!
 
-**Link to work:** [Merge Sort](https://carlo-defilippis.github.io/100-days-of-code/Projects/Merge%20Sort/index.html)
+**Link to work:** [React Portfolio - Day 1](https://carlo-defilippis.github.io/100-days-of-code/Projects/React%20Portfolio%20Day%201/index.html)
 
-100 Days Of Code, Day 12 of 100:
+### Day 13: March 2, 2021
 
-### Day 12: March 1, 2021
+**Today's Progress**: Today I am doing a total rework of my online portfolio that features some of my recent work. The base technologies I am using today are React and the gatsby cli. Gatsby is used to build static sites that are Progressive Web Apps, following the latest web standards, and are optimized to be highly performant. It makes use of the latest and popular technologies including ReactJS, Webpack, GraphQL, modern ES6+ JavaScript and CSS.
 
-**Today's Progress**: Today I wrote an algorithm that sorts an array using the merge sort method. Like Quick Sort, It works on the principle of Divide and Conquer. Merge sort repeatedly breaks down a list into several sublists until each sublist consists of a single element and merging those sublists in a manner that results into a sorted list.
+**Thoughts:** I'm excited to redo my portfolio with performance in mind, also the responsivness and style is exciting to experiment with. As industry standards continue to evolve, I'm ready to learn and become proficient in upcoming technolgies!
 
-**Thoughts:** This was a nice finale to my sorting algorithm practices from the past few days. I look forward to moving forward and working with data structures soon in the future.
+**Link to work:** [React Portfolio - Day 1](https://carlo-defilippis.github.io/100-days-of-code/Projects/React%20Portfolio%20Day%201/index.html)
 
-**Link to work:** https://carlo-defilippis.github.io/100-days-of-code/Projects/Merge%20Sort/index.html
+### Day 14: March 3, 2021
+
+**Today's Progress**: More portfolio customization, will upload final product when finished.
+
+### Day 15: March 4, 2021
+
+**Today's Progress**: More portfolio customization, will upload final product when finished.
+
+100 Days Of Code, Day 16 of 100:
+
+### Day 16: March 5, 2021
+
+**Today's Progress**: This project draws squares on a grid of 10x10 making 100 boxes.  We then color in the boxes individually by getting the top left point of each box and filling in the rectangle space of 50px by 50px with either green or white.  The animations are visualized smoothly by using async function to pause 70ms between each iteration.
+
+**Thoughts:** I had a lot of fun taking a little time away from my portfolio to do todays project! I have had little experience with canvas in javascript so I am looking forward to learning more in the future.
+
+**Link to work:** [Canvas Manipulation with colors](https://carlo-defilippis.github.io/100-days-of-code/Projects/React%20Portfolio%20Day%201/index.html)
 
 #100DaysOfCode
 #persistent
@@ -140,3 +154,5 @@ and become proficient in upcoming technolgies!
 #Python
 #resources
 #programming
+
+
