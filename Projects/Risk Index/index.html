@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Risk Level Indicator." />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Risk Level Indicator</title>
+</head>
+
+<body>
+    <div class="jumbotron">
+        <a class="btn btn-primary btn-lg ml-3" href="../../index.html" role="button">Main Page</a>
+        <h1 class="display-4 text-center">Risk Level Indicator</h1>
+        <p class="lead text-center">Investors are driven by two emotions: fear and greed. Too much fear can sink stocks well below where they should be. When 
+investors get greedy, they can bid up stock prices way too far. So what emotion is driving the market now? Using the Fear and Greed index provided by a CNN money API we can find out
+visually along with use a CSS needle gauge.</p>
+        <p class="text-center">Day 17 of "100 days of coding".</p>
+        <hr class="my-4">
+        <p></p>
+        <h1>Market Risk Level</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div class="gauge four now">
+                    <div class="slice-colors">
+                        <div class="st slice-item"></div>
+                        <div class="st slice-item"></div>
+                        <div class="st slice-item"></div>
+                        <div class="st slice-item"></div>
+                    </div>
+                    <div class="needle"></div>
+                    <div class="gauge-center">
+                        <div class="label">FEAR INDEX</div>
+                        <div class="number1"></div>
+                    </div>
+                </div>
+                <h4 class="dateWhen mr-5">Now</h4>
+            </div>
+            <div class="col-sm">
+                <div class="gauge four oneWeek">
+                    <div class="slice-colors">
+                        <div class="st slice-item"></div>
+                        <div class="st slice-item"></div>
+                        <div class="st slice-item"></div>
+                        <div class="st slice-item"></div>
+                    </div>
+                    <div class="needle"></div>
+                    <div class="gauge-center">
+                        <div class="label">FEAR INDEX</div>
+                        <div class="number2"></div>
+                    </div>
+                </div>
+                <h4 class="dateWhen mr-5">One Week Ago</h4>
+            </div>
+            <div class="col-sm">
+                <div class="gauge four oneMonth">
+                    <div class="slice-colors">
+                        <div class="st slice-item"></div>
+                        <div class="st slice-item"></div>
+                        <div class="st slice-item"></div>
+                        <div class="st slice-item"></div>
+                    </div>
+                    <div class="needle"></div>
+                    <div class="gauge-center">
+                        <div class="label">FEAR INDEX</div>
+                        <div class="number3"></div>
+                    </div>
+                </div>
+                <h4 class="dateWhen mr-5">One Month Ago</h4>
+            </div>
+            <div class="col-sm">
+                <div class="gauge four oneYear">
+                    <div class="slice-colors">
+                        <div class="st slice-item"></div>
+                        <div class="st slice-item"></div>
+                        <div class="st slice-item"></div>
+                        <div class="st slice-item"></div>
+                    </div>
+                    <div class="needle"></div>
+                    <div class="gauge-center">
+                        <div class="label">FEAR INDEX</div>
+                        <div class="number4"></div>
+                    </div>
+                </div>
+                <h4 class="dateWhen mr-5">One Year Ago</h4>
+            </div>
+            </div>
+        </div>
+        <button class="btn btn-primary btn-lg ml-3 checkButton">Check Market FEAR INDEX Levels</button>
+        <button class="btn btn-primary btn-lg ml-3 reload">RELOAD</button>
+        <br>
+        <br>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>

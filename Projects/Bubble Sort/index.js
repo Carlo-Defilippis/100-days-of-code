@@ -8,11 +8,9 @@ $(document).ready(function () {
     for (var i = 0; i < k; i++) {
       let number = Math.floor((Math.random() * 100) + 1)
       myMainArray.push(number)
-      console.log(number)
     }
   }
   generateNumbers(5)
-  console.log(myMainArray)
   $('.myRandomArray').text(myMainArray)
 
   function swapArrays(a, b, arr) {
@@ -25,7 +23,6 @@ $(document).ready(function () {
     let number = Math.floor((Math.random() * 100) + 1)
     myMainArray.push(number)
     $('.myRandomArray').text(myMainArray)
-    console.log(myMainArray)
   })
 
   $('.sortArray').click(function () {
