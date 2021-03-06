@@ -167,6 +167,7 @@ that we can show on pages and I love to practice with them also!
 **Link to work:** https://carlo-defilippis.github.io/100-days-of-code/Projects/Risk%20Index/index.html
 
 #100DaysOfCode
+#stonks
 #persistent
 #coding
 #opensource
