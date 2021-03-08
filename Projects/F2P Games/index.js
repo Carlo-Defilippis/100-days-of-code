@@ -1,5 +1,6 @@
 $(document).ready(function () {
     $('.popup').hide()
+    $('.multiSelect').selectpicker();
 
     let mySearches = []
     let myPlatform = []
@@ -7,19 +8,21 @@ $(document).ready(function () {
 
     // Clears all search options
     $('.clear').click(function () {
-        $('.searches').empty()
         mySearches = []
         myPlatform = []
         myOrder = []
         $('.selectOrder').val('default')
         $('.selectPlatform').val('default')
     })
-    // Makes a list for the user to see all the genres sleected visually
-    $('.dropdown-item').click(function () {
-        let cat = $(this).text()
-        mySearches.push(cat)
-        $(".searches").append('<li class="list-group-item bg-secondary">' + cat + '</li>');
-    })
+
+    // Gets the value of all the genre and tags the user is searching for
+    $('.multiSelect').change(function () {
+        var selectedItem = $(this).val();
+        if (selectedItem.length > 0) {
+            mySearches = selectedItem
+            console.log(selectedItem)
+        }
+    });
 
     // Give the platform selection, since it can only be one phrase, we empty the array before setting it
     $('.selectPlatform').click(function () {
@@ -36,7 +39,7 @@ $(document).ready(function () {
     })
 
     $('.convert').click(function () {
-        $('.searches').empty()
+        console.log(mySearches, myPlatform, myOrder)
         let finalSearch = mySearches.join('.')
 
         // Making the api call and inserting the search terms

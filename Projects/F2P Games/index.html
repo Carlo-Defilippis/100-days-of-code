@@ -8,6 +8,7 @@
     <meta name="Description" content="Free-To-Play game discovery" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.css" />
     <link rel="stylesheet" href="./style.css">
     <title>Free-To-Play game discovery</title>
 </head>
@@ -33,62 +34,56 @@
     <div class="container">
         <div class="row">
             <div class="col-sm">
-                <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle custom-select form-group form-control"
-                        type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-                        aria-expanded="false">
-                        Choose Genres
-                    </button>
-                    <p>You can choose multiple genre's</p>
-                    <div class="dropdown-menu text-white bg-dark" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item data text-light bg-primary" value="mmo" href="#">mmo</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">mmofps</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">mmotps</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">mmorpg</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">pvp</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">pve</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">moba</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">battle-royale</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item data text-light bg-primary" href="#">first-person</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">third-Person</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">shooter</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">strategy</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">racing</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">sports</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">social</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">sandbox</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">open-world</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">survival</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">pixel</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">voxel</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">zombie</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">turn-based</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">top-down</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">space</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">tank</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">sailing</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">side-scroller</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">superhero</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">permadeath</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">card</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">3d</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">2d</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">anime</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">fantasy</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">sci-fi</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">fighting</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">action-rpg</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">action</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">military</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">martial-arts</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">flight</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">low-spec</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">tower-defense</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">horror</a>
-                        <a class="dropdown-item data text-light bg-primary" href="#">mmorts</a>
-                    </div>
-                </div>
+
+                    
+                    <select class="custom-select selectGenre form-control multiSelect" multiple data-live-search="true">
+                        <option class="dropdown-item data text-light text-dark" value="mmo" href="#">mmo</option>
+                        <option class="dropdown-item data text-light text-dark" value="mmofps" href="#">mmofps</option>
+                        <option class="dropdown-item data text-light text-dark" value="mmotps" href="#">mmotps</option>
+                        <option class="dropdown-item data text-light text-dark" value="mmorpg" href="#">mmorpg</option>
+                        <option class="dropdown-item data text-light text-dark" value="pvp" href="#">pvp</option>
+                        <option class="dropdown-item data text-light text-dark" value="pve" href="#">pve</option>
+                        <option class="dropdown-item data text-light text-dark" value="moba" href="#">moba</option>
+                        <option class="dropdown-item data text-light text-dark" value="battle-royale" href="#">battle-royale</option>
+                        <option class="dropdown-item data text-light text-dark" value="first-person" href="#">first-person</option>
+                        <option class="dropdown-item data text-light text-dark" value="third-person" href="#">third-Person</option>
+                        <option class="dropdown-item data text-light text-dark" value="shooter" href="#">shooter</option>
+                        <option class="dropdown-item data text-light text-dark" value="strategy" href="#">strategy</option>
+                        <option class="dropdown-item data text-light text-dark" value="racing" href="#">racing</option>
+                        <option class="dropdown-item data text-light text-dark" value="sports" href="#">sports</option>
+                        <option class="dropdown-item data text-light text-dark" value="social" href="#">social</option>
+                        <option class="dropdown-item data text-light text-dark" value="sandbox" href="#">sandbox</option>
+                        <option class="dropdown-item data text-light text-dark" value="open-world" href="#">open-world</option>
+                        <option class="dropdown-item data text-light text-dark" value="survival" href="#">survival</option>
+                        <option class="dropdown-item data text-light text-dark" value="pixel" href="#">pixel</option>
+                        <option class="dropdown-item data text-light text-dark" value="voxel" href="#">voxel</option>
+                        <option class="dropdown-item data text-light text-dark" value="zombie" href="#">zombie</option>
+                        <option class="dropdown-item data text-light text-dark" value="turn-based" href="#">turn-based</option>
+                        <option class="dropdown-item data text-light text-dark" value="top-down" href="#">top-down</option>
+                        <option class="dropdown-item data text-light text-dark" value="space" href="#">space</option>
+                        <option class="dropdown-item data text-light text-dark" value="tank" href="#">tank</option>
+                        <option class="dropdown-item data text-light text-dark" value="sailing" href="#">sailing</option>
+                        <option class="dropdown-item data text-light text-dark" value="side-scroller" href="#">side-scroller</option>
+                        <option class="dropdown-item data text-light text-dark" value="superhero" href="#">superhero</option>
+                        <option class="dropdown-item data text-light text-dark" value="permadeath" href="#">permadeath</option>
+                        <option class="dropdown-item data text-light text-dark" value="card" href="#">card</option>
+                        <option class="dropdown-item data text-light text-dark" value="3d" href="#">3d</option>
+                        <option class="dropdown-item data text-light text-dark" value="2d" href="#">2d</option>
+                        <option class="dropdown-item data text-light text-dark" value="anime" href="#">anime</option>
+                        <option class="dropdown-item data text-light text-dark" value="fantasy" href="#">fantasy</option>
+                        <option class="dropdown-item data text-light text-dark" value="sci-fi" href="#">sci-fi</option>
+                        <option class="dropdown-item data text-light text-dark" value="fighting" href="#">fighting</option>
+                        <option class="dropdown-item data text-light text-dark" value="action-rpg" href="#">action-rpg</option>
+                        <option class="dropdown-item data text-light text-dark" value="action" href="#">action</option>
+                        <option class="dropdown-item data text-light text-dark" value="military" href="#">military</option>
+                        <option class="dropdown-item data text-light text-dark" value="martial-arts" href="#">martial-arts</option>
+                        <option class="dropdown-item data text-light text-dark" value="flight" href="#">flight</option>
+                        <option class="dropdown-item data text-light text-dark" value="low-spec" href="#">low-spec</option>
+                        <option class="dropdown-item data text-light text-dark" value="tower-defense" href="#">tower-defense</option>
+                        <option class="dropdown-item data text-light text-dark" value="horror" href="#">horror</option>
+                        <option class="dropdown-item data text-light text-dark" value="mmorts" href="#">mmorts</option>
+                    </select>
+                    <p>Choose Genre and tags, you can choose multiple</p>
                 <br>
                 <select class="custom-select selectPlatform form-control">
                     <option disabled selected>Choose Platform</option>
@@ -113,11 +108,7 @@
                 <h5 class="text-success popup">Searching for games</h5>
             </div>
             <div class="col-sm">
-                <button class="btn btn-primary btn-lg ml-0 clear">Clear Genres</button>
-                <h3>Selected Genres</h3>
-                <ul class="list-group bg-secondary searches">
-                </ul>
-                <p class="roman"></p>
+                <button class="btn btn-primary btn-lg ml-0 clear">Clear Search Options</button>
             </div>
         </div>
         <br>
