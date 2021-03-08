@@ -62,7 +62,7 @@ $(document).ready(function () {
             };
             // Getting a response, then appending the results to the html
             $.ajax(settings).done(function (response) {
-                $('.card-columns').focus()
+                $('.results').focus()
                 $('.column1').empty()
                 $('.column2').empty()
                 $('.column3').empty()
