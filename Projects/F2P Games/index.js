@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $('.popup').hide()
-    
+
 
     // if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
     //     $('.selectpicker').selectpicker('mobile');
@@ -17,8 +17,11 @@ $(document).ready(function () {
         mySearches = []
         myPlatform = []
         myOrder = []
-        $('.selectOrder').val('default')
-        $('.selectPlatform').val('default')
+        var elements = document.getElementsByTagName('select');
+        for (var i = 0; i < elements.length; i++) {
+            elements[i].selectedIndex = 0;
+        }
+        $('.selectpicker').selectpicker('deselectAll');
     })
 
     // Gets the value of all the genre and tags the user is searching for
@@ -65,11 +68,19 @@ $(document).ready(function () {
                 $([document.documentElement, document.body]).animate({
                     scrollTop: $(".results").offset().top
                 }, 2000);
+                $('.titleSearch').empty()
                 $('.column1').empty()
                 $('.column2').empty()
                 $('.column3').empty()
-                $('.selectOrder').val('default')
-                $('.selectPlatform').val('default')
+                var elements = document.getElementsByTagName('select');
+                for (var i = 0; i < elements.length; i++) {
+                    elements[i].selectedIndex = 0;
+                }
+                $('.selectpicker').selectpicker('deselectAll');
+                $('.filter-option-inner-inner').empty()
+                // $('.searchResults').text(`
+                //     Search tags: ${mySearches}, Platform: ${myPlatform}, Sort Order: ${myOrder}
+                // `)
                 let columnNumber = 1
                 for (var i = 0; i < response.length; i++) {
                     if (columnNumber == 3) {
@@ -89,7 +100,7 @@ $(document).ready(function () {
                                 </div>
                             </div>
                         `)
-                    columnNumber = 1
+                        columnNumber = 1
                     } else {
                         $('.column' + columnNumber).append(`
                         <div class="card mt-2 mb-2">
@@ -107,7 +118,7 @@ $(document).ready(function () {
                                 </div>
                             </div>
                         `)
-                    columnNumber++
+                        columnNumber++
                     }
                 }
                 // console.log(response);
