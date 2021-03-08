@@ -71,9 +71,7 @@ $(document).ready(function () {
                     scrollTop: $(".titleSearch").offset().top
                 }, 2000);
                 $('.titleSearch').empty()
-                $('.column1').empty()
-                $('.column2').empty()
-                $('.column3').empty()
+                $('.results').empty()
                 var elements = document.getElementsByTagName('select');
                 for (var i = 0; i < elements.length; i++) {
                     elements[i].selectedIndex = 0;
