@@ -154,17 +154,27 @@ that we can show on pages and I love to practice with them also!
 
 **Link to work:** [Risk Level Index](https://carlo-defilippis.github.io/100-days-of-code/Projects/Risk%20Index/index.html)
 
-100 Days Of Code, Day 17 of 100:
+### Day 18: March 7, 2021
 
-### Day 17: March 6, 2021
+**Today's Progress**: Today I used technolgies such as API's, BootStrap, JQuery and others to make a Free-To-Play game discovery page. This can help people find new free to play games to play. Here is a short description from the main page. "Not sure which game to play next? Don't feel like spending any money to play something new? You've come to the right place! Here you can search for free to play games by Genre, Platform, and a sort order. Go ahead, give it a shot and find your next favorite Free-To-Play game!"
 
-**Today's Progress**: Investors are driven by two emotions: fear and greed. Too much fear can sink stocks well below where they should be. When 
-investors get greedy, they can bid up stock prices way too far. So what emotion is driving the market now? Using the Fear and Greed index provided by a CNN money API we can find out visually along with useing a needle gauge made with the magic of CSS.
+**Thoughts:** Today I worked on a very fun project, I sometimes can't find something to play but also don't want to spend money on a game. So facing this problem I created a free to play game finder
+where we can sort by genre, popularity, release date, relevance, alphabetical and platform. It was a lot of fun to fix a real world problem and I cant wait to fix more in the future using javascript
+and other languages!
 
-**Thoughts:** CSS is one skill I need to brush up on so I enjoyed practicing with this project. Also the use of API's expands the information
-that we can show on pages and I love to practice with them also!
+**Link to work:** [Free-To-Play game discovery](https://carlo-defilippis.github.io/100-days-of-code/Projects/F2P%20Games/index.html)
 
-**Link to work:** https://carlo-defilippis.github.io/100-days-of-code/Projects/Risk%20Index/index.html
+100 Days Of Code, Day 18 of 100:
+
+### Day 18: March 7, 2021
+
+**Today's Progress**: Today I used technolgies such as API's, BootStrap, JQuery and others to make a Free-To-Play game discovery page. This can help people find new free to play games to play. Here is a short description from the main page. "Not sure which game to play next? Don't feel like spending any money to play something new? You've come to the right place! Here you can search for free to play games by Genre, Platform, and a sort order. Go ahead, give it a shot and find your next favorite Free-To-Play game!"
+
+**Thoughts:** Today I worked on a very fun project, I sometimes can't find something to play but also don't want to spend money on a game. So facing this problem I created a free to play game finder
+where we can sort by genre, popularity, release date, relevance, alphabetical and platform. It was a lot of fun to fix a real world problem and I cant wait to fix more in the future using javascript
+and other languages!
+
+**Link to work:** https://carlo-defilippis.github.io/100-days-of-code/Projects/F2P%20Games/index.html
 
 #100DaysOfCode
 #stonks
