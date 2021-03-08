@@ -66,7 +66,7 @@ $(document).ready(function () {
             // Getting a response, then appending the results to the html
             $.ajax(settings).done(function (response) {
                 $([document.documentElement, document.body]).animate({
-                    scrollTop: $(".results").offset().top
+                    scrollTop: $(".titleSearch").offset().top
                 }, 2000);
                 $('.titleSearch').empty()
                 $('.column1').empty()
