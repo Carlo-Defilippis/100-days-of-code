@@ -33,17 +33,23 @@ $(document).ready(function () {
     });
 
     // Give the platform selection, since it can only be one phrase, we empty the array before setting it
-    $('.selectPlatform').click(function () {
+    $('.selectPlatform').change(function () {
         let plat = $(this).val()
-        myPlatform = []
-        myPlatform.push(plat)
+        if (plat.length > 0) {
+            myPlatform = []
+            myPlatform.push(plat)
+            console.log(plat)
+        }
     })
 
     // Give the sort order, since it can only be one phrase, we empty the array before setting it
-    $('.selectOrder').click(function () {
+    $('.selectOrder').change(function () {
         let order = $(this).val()
-        myOrder = []
-        myOrder.push(order)
+        if (order.length > 0) {
+            myOrder = []
+            myOrder.push(order)
+            console.log(order)
+        }
     })
 
     $('.convert').click(function () {
