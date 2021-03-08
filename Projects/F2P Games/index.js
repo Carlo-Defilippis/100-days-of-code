@@ -2,7 +2,7 @@ $(document).ready(function () {
     $('.popup').hide()
     
 
-    if( /Android|webOS|iPhone|iPad|Mac|Macintosh|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
         $('.multiSelect').selectpicker('mobile');
        } else {
         $('.multiSelect').selectpicker();
