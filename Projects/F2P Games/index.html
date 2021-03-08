@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Roman numberal converter." />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Free Game Search</title>
+</head>
+
+<body class="bg-dark text-white">
+    <div class="jumbotron bg-dark" style="background-image: url(./pictures/background.png); background-repeat: no-repeat; background-attachment: fixed;
+    background-size: 100% 100%;">
+        <a class="btn btn-primary btn-lg ml-3" href="../../index.html" role="button">Main Page</a>
+        <br>
+        <h1 class="display-4 text-center">Free Game Search</h1>
+        <p class="lead text-center">Not sure which game to play next? Don't feel like spending any money to play something new?
+        You've come to the right place! Here you can search for free to play games by Genre, Platform, and a sort order. Go ahead, give
+        it a shot and find your next favorite Free-To-Play game!</p>
+        <p class="text-center">Day 18 of "100 days of coding".</p>
+        <hr class="my-4">
+        <p></p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Choose Genres
+                    </button>
+                    <p>You can choose multiple genre's</p>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item data" value="mmo" href="#">mmo</a>
+                        <a class="dropdown-item data" href="#">mmofps</a>
+                        <a class="dropdown-item data" href="#">mmotps</a>
+                        <a class="dropdown-item data" href="#">mmorpg</a>
+                        <a class="dropdown-item data" href="#">pvp</a>
+                        <a class="dropdown-item data" href="#">pve</a>
+                        <a class="dropdown-item data" href="#">moba</a>
+                        <a class="dropdown-item data" href="#">battle-royale</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item data" href="#">first-person</a>
+                        <a class="dropdown-item data" href="#">third-Person</a>
+                        <a class="dropdown-item data" href="#">shooter</a>
+                        <a class="dropdown-item data" href="#">strategy</a>
+                        <a class="dropdown-item data" href="#">racing</a>
+                        <a class="dropdown-item data" href="#">sports</a>
+                        <a class="dropdown-item data" href="#">social</a>
+                        <a class="dropdown-item data" href="#">sandbox</a>
+                        <a class="dropdown-item data" href="#">open-world</a>
+                        <a class="dropdown-item data" href="#">survival</a>
+                        <a class="dropdown-item data" href="#">pixel</a>
+                        <a class="dropdown-item data" href="#">voxel</a>
+                        <a class="dropdown-item data" href="#">zombie</a>
+                        <a class="dropdown-item data" href="#">turn-based</a>
+                        <a class="dropdown-item data" href="#">top-down</a>
+                        <a class="dropdown-item data" href="#">space</a>
+                        <a class="dropdown-item data" href="#">tank</a>
+                        <a class="dropdown-item data" href="#">sailing</a>
+                        <a class="dropdown-item data" href="#">side-scroller</a>
+                        <a class="dropdown-item data" href="#">superhero</a>
+                        <a class="dropdown-item data" href="#">permadeath</a>
+                        <a class="dropdown-item data" href="#">card</a>
+                        <a class="dropdown-item data" href="#">3d</a>
+                        <a class="dropdown-item data" href="#">2d</a>
+                        <a class="dropdown-item data" href="#">anime</a>
+                        <a class="dropdown-item data" href="#">fantasy</a>
+                        <a class="dropdown-item data" href="#">sci-fi</a>
+                        <a class="dropdown-item data" href="#">fighting</a>
+                        <a class="dropdown-item data" href="#">action-rpg</a>
+                        <a class="dropdown-item data" href="#">action</a>
+                        <a class="dropdown-item data" href="#">military</a>
+                        <a class="dropdown-item data" href="#">martial-arts</a>
+                        <a class="dropdown-item data" href="#">flight</a>
+                        <a class="dropdown-item data" href="#">low-spec</a>
+                        <a class="dropdown-item data" href="#">tower-defense</a>
+                        <a class="dropdown-item data" href="#">horror</a>
+                        <a class="dropdown-item data" href="#">mmorts</a>
+                    </div>
+                </div>
+                <br>
+                <select class="custom-select selectPlatform">
+                    <option disabled selected>Choose Platform</option>
+                    <option value="pc">PC</option>
+                    <option value="browser">Browser</option>
+                    <option value="all">All</option>
+                  </select>
+                  Choose platform
+                  <br>
+                  <br>
+                <select class="custom-select selectOrder">
+                    <option disabled selected>Choose Sort Order</option>
+                    <option value="release-date">release-date</option>
+                    <option value="popularity">popularity</option>
+                    <option value="alphabetical">alphabetical</option>
+                    <option value="relevance">relevance</option>
+                  </select>
+                  Choose sort order
+            </div>
+                <div class="col-sm">
+                    <a class="btn btn-primary btn-lg ml-5 convert" href="#" role="button">Search for game</a>
+                    <h5 class="text-success popup">Searching for games</h5>
+                </div>
+            <div class="col-sm">
+                <button class="btn btn-primary btn-lg ml-0 clear">Clear Genres</button>
+                <h3>Selected Genres</h3>
+                <ul class="list-group bg-secondary searches">
+                  </ul>
+                <p class="roman"></p>
+            </div>
+        </div>
+        <br>
+    </div>
+    <div class="container">
+    <div class="row justify-content-center">
+        <div class="col-4 col-sm-4 text-center column1 flex-column" value='1'>
+
+        </div>
+        <div class="col-4 col-sm-4 text-center column2" value='2'>
+
+        </div>
+        <div class="col-4 col-sm-4 text-center column3" value='3'>
+
+        </div>
+    </div>
+    <br>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
