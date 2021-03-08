@@ -50,8 +50,8 @@ $(document).ready(function () {
         }
     })
 
-    $('.convert').click(function () {
-
+    $('.convert').click(function ($evt) {
+        $evt.preventDefault();
         let finalSearch = mySearches.join('.')
         // Making the api call and inserting the search terms
         if (myPlatform.length > 0 && myOrder.length > 0 && mySearches.length > 0) {
