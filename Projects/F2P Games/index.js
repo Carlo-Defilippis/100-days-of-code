@@ -86,8 +86,9 @@ $(document).ready(function () {
                 let columnNumber = 1
                 if (response.status === 0) {
                     alert("Sorry, no results. Try to choose less genre's and tags.")
+                    $('.titleSearch').empty()
+                    $('.results').empty()
                 } else {
-                    console.log(response)
                 for (var i = 0; i < response.length; i++) {
                     if (columnNumber == 3) {
                         $('.results').append(`
