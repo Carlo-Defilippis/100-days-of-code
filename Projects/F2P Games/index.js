@@ -69,11 +69,11 @@ $(document).ready(function () {
                                 <div class="card-body">
                                     <h5 class="card-title text-dark">${response[i].title}</h5>
                                     <p class="card-text text-dark">${response[i].short_description}</p>
-                                    <h6 class="card-title text-dark">Platform</h6>
+                                    <h6 class="card-title text-dark">Platform:</h6>
                                     <p class="card-text text-dark">${response[i].platform}</p>
-                                    <h6 class="card-title text-dark">Genre</h6>
+                                    <h6 class="card-title text-dark">Genre:</h6>
                                     <p class="card-text text-dark">${response[i].genre}</p>
-                                    <h6 class="card-title text-dark">Developer</h6>
+                                    <h6 class="card-title text-dark">Developer:</h6>
                                     <p class="card-text text-dark">${response[i].developer}</p>
                                     <a href="${response[i].game_url}" target="_blank" class="btn btn-primary">Check it out</a>
                                 </div>
@@ -87,11 +87,11 @@ $(document).ready(function () {
                                 <div class="card-body">
                                     <h5 class="card-title text-dark">${response[i].title}</h5>
                                     <p class="card-text text-dark">${response[i].short_description}</p>
-                                    <h6 class="card-title text-dark">Platform</h6>
+                                    <h6 class="card-title text-dark">Platform:</h6>
                                     <p class="card-text text-dark">${response[i].platform}</p>
-                                    <h6 class="card-title text-dark">Genre</h6>
+                                    <h6 class="card-title text-dark">Genre:</h6>
                                     <p class="card-text text-dark">${response[i].genre}</p>
-                                    <h6 class="card-title text-dark">Developer</h6>
+                                    <h6 class="card-title text-dark">Developer:</h6>
                                     <p class="card-text text-dark">${response[i].developer}</p>
                                     <a href="${response[i].game_url}" target="_blank" class="btn btn-primary">Check it out</a>
                                 </div>
