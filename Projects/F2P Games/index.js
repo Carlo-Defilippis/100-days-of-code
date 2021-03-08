@@ -62,7 +62,9 @@ $(document).ready(function () {
             };
             // Getting a response, then appending the results to the html
             $.ajax(settings).done(function (response) {
-                $('.results').focus()
+                $([document.documentElement, document.body]).animate({
+                    scrollTop: $(".results").offset().top
+                }, 2000);
                 $('.column1').empty()
                 $('.column2').empty()
                 $('.column3').empty()
