@@ -13,7 +13,8 @@ $(document).ready(function () {
     let myOrder = []
 
     // Clears all search options
-    $('.clear').click(function () {
+    $('.clear').click(function ($evt) {
+        $evt.preventDefault();
         mySearches = []
         myPlatform = []
         myOrder = []
@@ -22,6 +23,8 @@ $(document).ready(function () {
             elements[i].selectedIndex = 0;
         }
         $('.selectpicker').selectpicker('deselectAll');
+        $('.titleSearch').empty()
+        $('.results').empty()
     })
 
     // Gets the value of all the genre and tags the user is searching for
