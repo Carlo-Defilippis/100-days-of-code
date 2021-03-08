@@ -3,9 +3,9 @@ $(document).ready(function () {
     
 
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
-        $('.multiSelect').selectpicker('mobile');
+        $('.selectpicker').selectpicker('mobile');
        } else {
-        $('.multiSelect').selectpicker();
+        $('.selectpicker').selectpicker();
        }
 
     let mySearches = []
