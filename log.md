@@ -164,17 +164,26 @@ and other languages!
 
 **Link to work:** [Free-To-Play game discovery](https://carlo-defilippis.github.io/100-days-of-code/Projects/F2P%20Games/index.html)
 
-100 Days Of Code, Day 18 of 100:
+### Day 19: March 8, 2021
 
-### Day 18: March 7, 2021
+**Today's Progress**: Today I updated my Free-To-Play game discovery page to be responsive and work great on mobile! I also adjusted the cards to give them a cleaner look, added measures such as "$env.preventdefault()" to fix bugs that happened only on mobile, corrected the order in which cards were displaying, they were previously 
+displaying horizontally but I envoked css magic to get them to be responsive and display in the correct order.
 
-**Today's Progress**: Today I used technolgies such as API's, BootStrap, JQuery and others to make a Free-To-Play game discovery page. This can help people find new free to play games to play. Here is a short description from the main page. "Not sure which game to play next? Don't feel like spending any money to play something new? You've come to the right place! Here you can search for free to play games by Genre, Platform, and a sort order. Go ahead, give it a shot and find your next favorite Free-To-Play game!"
+**Thoughts:** I am very happy where this project ended up and I hope people get to test it out. Although i spent many many hours on it, I had fun the ENTIRE time, this is how I know this career in web development and coding is what I was ment to do! Any feedback is welcome from my linkedin friends and family.
 
-**Thoughts:** Today I worked on a very fun project, I sometimes can't find something to play but also don't want to spend money on a game. So facing this problem I created a free to play game finder
-where we can sort by genre, popularity, release date, relevance, alphabetical and platform. It was a lot of fun to fix a real world problem and I cant wait to fix more in the future using javascript
-and other languages!
+**Link to work:** [Free-To-Play game discovery Day 2](https://carlo-defilippis.github.io/100-days-of-code/Projects/F2P%20Games/index.html)
+
+100 Days Of Code, Day 19 of 100:
+
+### Day 19: March 8, 2021
+
+**Today's Progress**: Today I updated my Free-To-Play game discovery page to be responsive and work great on mobile! I also adjusted the cards to give them a cleaner look, added measures such as "$env.preventdefault()" to fix bugs that happened only on mobile, corrected the order in which cards were displaying, they were previously 
+displaying horizontally but I envoked css magic to get them to be responsive(go ahead and resize the browser window or check it out on mobile!) and display in the correct order. Plus many many more adjustments and fixes.
+
+**Thoughts:** I am very happy where this project ended up and I hope people get to test it out. Although i spent many many hours on it, I had fun the ENTIRE time, this is how I know this career in web development and coding is what I was ment to do! Any feedback is welcome from my linkedin friends and family.
 
 **Link to work:** https://carlo-defilippis.github.io/100-days-of-code/Projects/F2P%20Games/index.html
+
 
 #100DaysOfCode
 #f2p
