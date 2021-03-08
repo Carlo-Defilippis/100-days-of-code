@@ -87,10 +87,11 @@ $(document).ready(function () {
                 if (response.status === 0) {
                     alert("Sorry, no results. Try to choose less genre's and tags.")
                 } else {
+                    console.log(response)
                 for (var i = 0; i < response.length; i++) {
                     if (columnNumber == 3) {
-                        $('.column' + columnNumber).append(`
-                        <div class="card mt-2 mb-2">
+                        $('.results').append(`
+                        <div class="masonry-brick card mt-2 mb-2">
                             <img src="${response[i].thumbnail}" class="card-img-top" alt="${response[i].title}">
                                 <div class="card-body">
                                     <h5 class="card-title text-dark">${response[i].title}</h5>
@@ -99,6 +100,8 @@ $(document).ready(function () {
                                     <p class="card-text text-dark">${response[i].platform}</p>
                                     <h6 class="card-title text-dark">Genre:</h6>
                                     <p class="card-text text-dark">${response[i].genre}</p>
+                                    <h6 class="card-title text-dark">Release Date:</h6>
+                                    <p class="card-text text-dark">${response[i].release_date}</p>
                                     <h6 class="card-title text-dark">Developer:</h6>
                                     <p class="card-text text-dark">${response[i].developer}</p>
                                     <a href="${response[i].game_url}" target="_blank" class="btn btn-primary">Check it out</a>
@@ -107,8 +110,8 @@ $(document).ready(function () {
                         `)
                         columnNumber = 1
                     } else {
-                        $('.column' + columnNumber).append(`
-                        <div class="card mt-2 mb-2">
+                        $('.results').append(`
+                        <div class="masonry-brick card mt-2 mb-2">
                             <img src="${response[i].thumbnail}" class="card-img-top" alt="${response[i].title}">
                                 <div class="card-body">
                                     <h5 class="card-title text-dark">${response[i].title}</h5>
@@ -117,6 +120,8 @@ $(document).ready(function () {
                                     <p class="card-text text-dark">${response[i].platform}</p>
                                     <h6 class="card-title text-dark">Genre:</h6>
                                     <p class="card-text text-dark">${response[i].genre}</p>
+                                    <h6 class="card-title text-dark">Release Date:</h6>
+                                    <p class="card-text text-dark">${response[i].release_date}</p>
                                     <h6 class="card-title text-dark">Developer:</h6>
                                     <p class="card-text text-dark">${response[i].developer}</p>
                                     <a href="${response[i].game_url}" target="_blank" class="btn btn-primary">Check it out</a>

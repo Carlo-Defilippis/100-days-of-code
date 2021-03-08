@@ -1,23 +1,40 @@
-@media (min-width: 576px) {
-    .card-columns {
+.masonry { 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .masonry-brick {
+    justify-content: center;
+    min-height: auto;
+    min-width: 400px;
+    max-height: auto;
+    max-width: 401px;
+    margin: 0 8px 8px 0; /* Some gutter */
+  }
+
+
+/* @media (min-width: 576px) {
+    .masonry-brick {
         column-count: 1;
     }
 }
 
 @media (min-width: 768px) {
-    .card-columns {
+    .masonry-brick {
         column-count: 1;
     }
 }
 
 @media (min-width: 992px) {
-    .card-columns {
+    .masonry-brick {
         column-count: 3;
     }
 }
 
 @media (min-width: 1200px) {
-    .card-columns {
+    .masonry-brick {
         column-count: 3;
     }
-}
+} */
