@@ -53,6 +53,7 @@ $(document).ready(function () {
             };
             // Getting a response, then appending the results to the html
             $.ajax(settings).done(function (response) {
+                $('.card-columns').focus()
                 $('.column1').empty()
                 $('.column2').empty()
                 $('.column3').empty()
@@ -62,8 +63,8 @@ $(document).ready(function () {
                 for (var i = 0; i < response.length; i++) {
                     if (columnNumber == 3) {
                         $('.column' + columnNumber).append(`
-                        <div class="card mt-2 mb-2" style="width: '60%';">
-                            <img src="${response[i].thumbnail}" class="card-img-top" alt="...">
+                        <div class="card mt-2 mb-2">
+                            <img src="${response[i].thumbnail}" class="card-img-top" alt="${response[i].title}">
                                 <div class="card-body">
                                     <h5 class="card-title text-dark">${response[i].title}</h5>
                                     <p class="card-text text-dark">${response[i].short_description}</p>
@@ -80,8 +81,8 @@ $(document).ready(function () {
                     columnNumber = 1
                     } else {
                         $('.column' + columnNumber).append(`
-                        <div class="card mt-2 mb-2" style="width: '60%';">
-                            <img src="${response[i].thumbnail}" class="card-img-top" alt="...">
+                        <div class="card mt-2 mb-2">
+                            <img src="${response[i].thumbnail}" class="card-img-top" alt="${response[i].title}">
                                 <div class="card-body">
                                     <h5 class="card-title text-dark">${response[i].title}</h5>
                                     <p class="card-text text-dark">${response[i].short_description}</p>
