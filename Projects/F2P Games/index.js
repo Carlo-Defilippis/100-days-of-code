@@ -1,23 +1,6 @@
 $(document).ready(function () {
     $('.popup').hide()
 
-
-    // $(function () {
-    //     $('.selectPlatform').selectpicker({
-    //         container: 'body'   
-    //     });
-    //     $('.selectOrder').selectpicker({
-    //         container: 'body'   
-    //     });
-    //     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
-    //         $('.selectPlatform').selectpicker('mobile');
-    //         $('.selectOrder').selectpicker('mobile');
-    //     } else {
-    //         $('.selectPlatform').selectpicker();
-    //         $('.selectOrder').selectpicker();
-    //     }
-    //     });
-
     let mySearches = []
     let myPlatform = []
     let myOrder = []
