@@ -49,7 +49,7 @@ $(document).ready(function () {
     $('.convert').click(function () {
 
         let finalSearch = mySearches.join('.')
-
+        console.log(myPlatform, myOrder, mySearches)
         // Making the api call and inserting the search terms
         if (myPlatform.length > 0 && myOrder.length > 0 && mySearches.length > 0) {
             const settings = {
