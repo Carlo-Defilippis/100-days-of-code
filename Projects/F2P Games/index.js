@@ -1,6 +1,12 @@
 $(document).ready(function () {
     $('.popup').hide()
-    $('.multiSelect').selectpicker();
+    
+
+    if( /Android|webOS|iPhone|iPad|Mac|Macintosh|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        $('.multiSelect').selectpicker('mobile');
+       } else {
+        $('.multiSelect').selectpicker();
+       }
 
     let mySearches = []
     let myPlatform = []
