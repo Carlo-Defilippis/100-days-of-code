@@ -2,6 +2,16 @@ $(document).ready(function () {
     $('.popup').hide()
 
 
+    $(function () {
+        $('#desktop').selectpicker({
+            container: 'body'   
+        });
+        
+        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+            $('.selectPlatform').selectpicker('mobile');
+            $('.selectOrder').selectpicker('mobile');
+        }
+        });
 
     let mySearches = []
     let myPlatform = []
