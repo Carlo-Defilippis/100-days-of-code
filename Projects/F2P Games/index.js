@@ -80,9 +80,13 @@ $(document).ready(function () {
                 $('.filter-option-inner-inner').empty();
                 console.log(mySearches, myPlatform, myOrder)
                 $('.titleSearch').text(`
-                    Search tags: ${mySearches}, Platform: ${myPlatform}, Sort Order: ${myOrder}
+                ${response.length} results found! -- Search tags: ${mySearches} -- Platform: ${myPlatform} -- Sort Order: ${myOrder}
                 `)
                 let columnNumber = 1
+                console.log(response)
+                if (response.status === 0) {
+                    alert("Sorry, no results. Try to choose less genre's and tags.")
+                } else {
                 for (var i = 0; i < response.length; i++) {
                     if (columnNumber == 3) {
                         $('.column' + columnNumber).append(`
@@ -122,6 +126,7 @@ $(document).ready(function () {
                         columnNumber++
                     }
                 }
+            }
                 // console.log(response);
                 mySearches = []
                 myPlatform = []
