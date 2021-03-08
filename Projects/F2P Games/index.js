@@ -48,7 +48,7 @@ $(document).ready(function () {
     })
 
     $('.convert').click(function () {
-        console.log(mySearches, myPlatform, myOrder)
+
         let finalSearch = mySearches.join('.')
 
         // Making the api call and inserting the search terms
@@ -77,10 +77,11 @@ $(document).ready(function () {
                     elements[i].selectedIndex = 0;
                 }
                 $('.selectpicker').selectpicker('deselectAll');
-                $('.filter-option-inner-inner').empty()
-                // $('.searchResults').text(`
-                //     Search tags: ${mySearches}, Platform: ${myPlatform}, Sort Order: ${myOrder}
-                // `)
+                $('.filter-option-inner-inner').empty();
+                console.log(mySearches, myPlatform, myOrder)
+                $('.titleSearch').text(`
+                    Search tags: ${mySearches}, Platform: ${myPlatform}, Sort Order: ${myOrder}
+                `)
                 let columnNumber = 1
                 for (var i = 0; i < response.length; i++) {
                     if (columnNumber == 3) {
@@ -122,11 +123,11 @@ $(document).ready(function () {
                     }
                 }
                 // console.log(response);
+                mySearches = []
+                myPlatform = []
+                myOrder = []
             });
             // Resets all arrays to empty to get ready for new search
-            mySearches = []
-            myPlatform = []
-            myOrder = []
         } else {
             // Not all options were filled out so we alert the user
             alert("Please choose a platform and genre before searching.")
