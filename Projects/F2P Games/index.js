@@ -38,7 +38,6 @@ $(document).ready(function () {
         if (plat.length > 0) {
             myPlatform = []
             myPlatform.push(plat)
-            console.log(plat)
         }
     })
 
@@ -48,14 +47,12 @@ $(document).ready(function () {
         if (order.length > 0) {
             myOrder = []
             myOrder.push(order)
-            console.log(order)
         }
     })
 
     $('.convert').click(function () {
 
         let finalSearch = mySearches.join('.')
-        console.log(myPlatform, myOrder, mySearches)
         // Making the api call and inserting the search terms
         if (myPlatform.length > 0 && myOrder.length > 0 && mySearches.length > 0) {
             const settings = {
