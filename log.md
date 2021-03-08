@@ -177,7 +177,7 @@ and other languages!
 **Link to work:** https://carlo-defilippis.github.io/100-days-of-code/Projects/F2P%20Games/index.html
 
 #100DaysOfCode
-#stonks
+#f2p
 #persistent
 #coding
 #opensource
