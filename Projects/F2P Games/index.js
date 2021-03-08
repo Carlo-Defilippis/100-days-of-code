@@ -29,7 +29,6 @@ $(document).ready(function () {
         var selectedItem = $(this).val();
         if (selectedItem.length > 0) {
             mySearches = selectedItem
-            console.log(selectedItem)
         }
     });
 
@@ -78,12 +77,10 @@ $(document).ready(function () {
                 }
                 $('.selectpicker').selectpicker('deselectAll');
                 $('.filter-option-inner-inner').empty();
-                console.log(mySearches, myPlatform, myOrder)
                 $('.titleSearch').text(`
                 ${response.length} results found! -- Search tags: ${mySearches} -- Platform: ${myPlatform} -- Sort Order: ${myOrder}
                 `)
                 let columnNumber = 1
-                console.log(response)
                 if (response.status === 0) {
                     alert("Sorry, no results. Try to choose less genre's and tags.")
                 } else {
