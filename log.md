@@ -173,16 +173,27 @@ displaying horizontally but I envoked css magic to get them to be responsive and
 
 **Link to work:** [Free-To-Play game discovery Day 2](https://carlo-defilippis.github.io/100-days-of-code/Projects/F2P%20Games/index.html)
 
-100 Days Of Code, Day 19 of 100:
+### Day 20: March 9, 2021
 
-### Day 19: March 8, 2021
+**Today's Progress**: Using a combination of JavaScript and Python we can detect patterns in the NYSE market. We use modules such as yfinance, flask, bootstrap(for styling), TA-LIB(for analyzing), finviz(for charts visualization). This was made with the help of user hackingfthemarkets' GitHub and much research on pattern recognition tactics. 
 
-**Today's Progress**: Today I updated my Free-To-Play game discovery page to be responsive and work great on mobile! I also adjusted the cards to give them a cleaner look, added measures such as "$env.preventdefault()" to fix bugs that happened only on mobile, corrected the order in which cards were displaying, they were previously 
-displaying horizontally but I envoked css magic to get them to be responsive(go ahead and resize the browser window or check it out on mobile!) and display in the correct order. Plus many many more adjustments and fixes.
+**Thoughts:** Today was something new for me, I have never deployed a website with Python so that was challenging yet I learned a lot.  Also as I work more
+and more with Python I am learning to love it and JavaScript together! Joining both languages together for this site was fun!
 
-**Thoughts:** I am very happy where this project ended up and I hope people get to test it out. Although i spent many many hours on it, I had fun the ENTIRE time, this is how I know this career in web development and coding is what I was ment to do! Any feedback is welcome from my linkedin friends and family.
+**Link to work:** [Market Patterns](https://market-patterns.herokuapp.com/)
 
-**Link to work:** https://carlo-defilippis.github.io/100-days-of-code/Projects/F2P%20Games/index.html
+
+
+100 Days Of Code, Day 20 of 100:
+
+### Day 20: March 9, 2021
+
+**Today's Progress**: Using a combination of JavaScript and Python we can detect patterns in the NYSE market. We use modules such as yfinance, flask, bootstrap(for styling), TA-LIB(for analyzing), finviz(for charts visualization). This was made with the help of user hackingfthemarkets' GitHub and much research on pattern recognition tactics and how to host python apps. 
+
+**Thoughts:** Today was something new for me, I have never deployed a website with Python so that was challenging yet I learned a lot.  Also as I work more
+and more with Python I am learning to love it and JavaScript together! Joining both languages together for this site was fun!
+
+**Link to work:** https://market-patterns.herokuapp.com/
 
 
 #100DaysOfCode
