@@ -182,6 +182,15 @@ and more with Python I am learning to love it and JavaScript together! Joining b
 
 **Link to work:** [Market Patterns](https://market-patterns.herokuapp.com/)
 
+### Day 21/22: March 10/11, 2021
+
+**Today's Progress**: -- Portfolio - Tooltips and Resume --  Yesterday and today I worked further on my portfolio to make it look better and respond better.
+A lot of time was spent on design and overall learning how to be more profitiont with ReactJS.  I added a tooltip to certain works on my Resume so employers
+can get some "fun facts" about me if they hover their mouse over the text.  I also added a background to my resume that simulates real paper and resizes correctly to the page along with the correct text wrap, also working really well on mobile.
+
+**Thoughts:** Phew! I feel like I ran a marathon with my brain for the past 2 days.  I absolutely love how ReactJS makes webpages so much faster and how replicating elements is a breeze.  I cannot wait to learn even more about ReactJS in the coming days, and months!
+
+**Link to work:** [Market Patterns](https://market-patterns.herokuapp.com/)
 
 
 100 Days Of Code, Day 20 of 100:
