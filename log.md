@@ -184,26 +184,22 @@ and more with Python I am learning to love it and JavaScript together! Joining b
 
 ### Day 21/22: March 10/11, 2021
 
-**Today's Progress**: -- Portfolio - Tooltips and Resume --  Yesterday and today I worked further on my portfolio to make it look better and respond better.
-A lot of time was spent on design and overall learning how to be more profitiont with ReactJS.  I added a tooltip to certain works on my Resume so employers
-can get some "fun facts" about me if they hover their mouse over the text.  I also added a background to my resume that simulates real paper and resizes correctly to the page along with the correct text wrap, also working really well on mobile.
+**Today's Progress**: -- React Portfolio - Tooltips and Resume --  Yesterday and today I worked further on my portfolio to make it look better and respond better. A lot of time was spent on design and overall learning how to be more profitiont with ReactJS.  I added a tooltip to certain works on my Resume so employers can get some "fun facts" about me if they hover their mouse over the text.  I also added a background to my resume that simulates real paper and resizes correctly to the page along with the correct text wrap, also working really well on mobile.
 
-**Thoughts:** Phew! I feel like I ran a marathon with my brain for the past 2 days.  I absolutely love how ReactJS makes webpages so much faster and how replicating elements is a breeze.  I cannot wait to learn even more about ReactJS in the coming days, and months!
+**Thoughts:** Phew! I feel like I ran a marathon with my brain for the past 2 days. I absolutely love how ReactJS makes webpages so much faster and how replicating elements is a breeze.  I cannot wait to learn even more about ReactJS in the coming days, and months!
 
-**Link to work:** [Market Patterns](https://market-patterns.herokuapp.com/)
+**Link to work:** [React Portfolio Day 3 and 4](https://carlo-defilippis.github.io/100-days-of-code/Projects/React%20Portfolio%20Day%203%20and%204/index.html)
 
 
-100 Days Of Code, Day 20 of 100:
+100 Days Of Code, Day 21/22 of 100:
 
-### Day 20: March 9, 2021
+### Day 21/22: March 10/11, 2021
 
-**Today's Progress**: Using a combination of JavaScript and Python we can detect patterns in the NYSE market. We use modules such as yfinance, flask, bootstrap(for styling), TA-LIB(for analyzing), finviz(for charts visualization). This was made with the help of user hackingfthemarkets' GitHub and much research on pattern recognition tactics and how to host python apps. 
+**Today's Progress**: -- React Portfolio - Tooltips and Resume --  Yesterday and today I worked further on my portfolio to make it look better and respond better. A lot of time was spent on design and overall learning how to be more profitiont with ReactJS.  I added a tooltip to certain works on my Resume so employers can get some "fun facts" about me if they hover their mouse over the text.  I also added a background to my resume that simulates real paper and resizes correctly to the page along with the correct text wrap, also working really well on mobile.
 
-**Thoughts:** Today was something new for me, I have never deployed a website with Python so that was challenging yet I learned a lot.  Also as I work more
-and more with Python I am learning to love it and JavaScript together! Joining both languages together for this site was fun!
+**Thoughts:** Phew! I feel like I ran a marathon with my brain for the past 2 days. I absolutely love how ReactJS makes webpages so much faster and how replicating elements is a breeze.  I cannot wait to learn even more about ReactJS in the coming days, and months!
 
-**Link to work:** https://market-patterns.herokuapp.com/
-
+**Link to work:** https://carlo-defilippis.github.io/100-days-of-code/Projects/React%20Portfolio%20Day%203%20and%204/index.html
 
 #100DaysOfCode
 #f2p
