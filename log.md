@@ -190,19 +190,28 @@ and more with Python I am learning to love it and JavaScript together! Joining b
 
 **Link to work:** [React Portfolio Day 3 and 4](https://carlo-defilippis.github.io/100-days-of-code/Projects/React%20Portfolio%20Day%203%20and%204/index.html)
 
+### Day 23: March 12, 2021
 
-100 Days Of Code, Day 21/22 of 100:
+**Today's Progress**: -- Title Case Algorithm --  Today we work on an algorithm thats refered to as Title Case Converter.  Sometimes we want to manipulate a sentence that a user enters into an input box and this is an example of that. We return the provided string with the first letter of each word capitalized. Make sure the rest of the word is in lower case.
 
-### Day 21/22: March 10/11, 2021
+**Thoughts:** Decided to get back to basics today and went with an algorithm that formats a users sentence.  I enjoyed figuring out this algorithm and trying to make it as short as possible by using a map function inside of the main funciton followed by a charAt chain of events. Overall I once again had a ton of fun, I am loving this challenge and I'm almost at the 1/4 milestone of 
+25 days! Persistance!!
 
-**Today's Progress**: -- React Portfolio - Tooltips and Resume --  Yesterday and today I worked further on my portfolio to make it look better and respond better. A lot of time was spent on design and overall learning how to be more profitiont with ReactJS.  I added a tooltip to certain works on my Resume so employers can get some "fun facts" about me if they hover their mouse over the text.  I also added a background to my resume that simulates real paper and resizes correctly to the page along with the correct text wrap, also working really well on mobile.
+**Link to work:** [Title Case Converter](https://carlo-defilippis.github.io/100-days-of-code/Projects/Title%20Case/index.html)
 
-**Thoughts:** Phew! I feel like I ran a marathon with my brain for the past 2 days. I absolutely love how ReactJS makes webpages so much faster and how replicating elements is a breeze.  I cannot wait to learn even more about ReactJS in the coming days, and months!
+100 Days Of Code, Day 23 of 100:
 
-**Link to work:** https://carlo-defilippis.github.io/100-days-of-code/Projects/React%20Portfolio%20Day%203%20and%204/index.html
+### Day 23: March 12, 2021
+
+**Today's Progress**: -- Title Case Algorithm --  Today we work on an algorithm thats refered to as Title Case Converter.  Sometimes we want to manipulate a sentence that a user enters into an input box and this is an example of that. We return the provided string with the first letter of each word capitalized. Make sure the rest of the word is in lower case.
+
+**Thoughts:** Decided to get back to basics today and went with an algorithm that formats a users sentence.  I enjoyed figuring out this algorithm and trying to make it as short as possible by using a map function inside of the main funciton followed by a charAt chain of events. Overall I once again had a ton of fun, I am loving this challenge and I'm almost at the 1/4 milestone of 
+25 days! Persistance!!
+
+**Link to work:** https://carlo-defilippis.github.io/100-days-of-code/Projects/Title%20Case/index.html
 
 #100DaysOfCode
-#f2p
+#algorithm
 #persistent
 #coding
 #opensource
