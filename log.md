@@ -199,14 +199,15 @@ and more with Python I am learning to love it and JavaScript together! Joining b
 
 **Link to work:** [Title Case Converter](https://carlo-defilippis.github.io/100-days-of-code/Projects/Title%20Case/index.html)
 
-100 Days Of Code, Day 23 of 100:
+100 Days Of Code, Day 24-25 of 100:
 
-### Day 23: March 12, 2021
+### Day 24-25: March 14-15, 2021
 
-**Today's Progress**: -- Title Case Algorithm --  Today we work on an algorithm thats refered to as Title Case Converter.  Sometimes we want to manipulate a sentence that a user enters into an input box and this is an example of that. We return the provided string with the first letter of each word capitalized. Make sure the rest of the word is in lower case.
+**Today's Progress**: -- Portfolio Contact Form -- Today I added functionality to the contact form.  I used states to track the users inputs and send a call function to a module 
+called emailjs, to anyone who hasnt tried it, I highly reccomend! I am in the process of other additions to the portfolio, so expect more to come.
 
-**Thoughts:** Decided to get back to basics today and went with an algorithm that formats a users sentence.  I enjoyed figuring out this algorithm and trying to make it as short as possible by using a map function inside of the main funciton followed by a charAt chain of events. Overall I once again had a ton of fun, I am loving this challenge and I'm almost at the 1/4 milestone of 
-25 days! Persistance!!
+**Thoughts:** After a weekend of not logging my work for my portfolio I decided to give the contact form some function and I could not be any happier!  This portfolio is coming along
+great and I cant wait to show it to all prospecting employers and friends.
 
 **Link to work:** https://carlo-defilippis.github.io/100-days-of-code/Projects/Title%20Case/index.html
 
