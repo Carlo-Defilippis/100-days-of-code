@@ -199,7 +199,7 @@ and more with Python I am learning to love it and JavaScript together! Joining b
 
 **Link to work:** [Title Case Converter](https://carlo-defilippis.github.io/100-days-of-code/Projects/Title%20Case/index.html)
 
-### Day 23: March 12, 2021
+### Day 24/25: March 14/15, 2021
 
 **Today's Progress**: -- Portfolio Contact Form -- Today I added functionality to the contact form.  I used states to track the users inputs and send a call function to a module 
 called emailjs, to anyone who hasnt tried it, I highly reccomend! I am in the process of other additions to the portfolio, so expect more to come.
@@ -209,18 +209,36 @@ great and I cant wait to show it to all prospecting employers and friends.
 
 **Link to work:** [React Portfolio Contact Form](https://carlo-defilippis.github.io/100-days-of-code/Projects/React%20Portfolio%20Contact%20Form/index.html)
 
+### Day 26: March 16, 2021
 
-100 Days Of Code, Day 24-25 of 100:
+**Today's Progress**: -- Game of Life -- Today I had the pleasure of recreating the game of life with ReactJS and JavaScript. The somewhat famous 'Game of Life', also known simply as 'Life', is a cellular automaton devised by the British mathematician John Horton Conway in 1970. One interacts with the Game of Life by creating an initial configuration and observing how it evolves. It is Turing complete and can simulate a universal constructor or any other Turing machine. There are 4 simple rules:
+1. Any live cell with fewer than two live neighbors dies, as if caused by under population.
+2. Any live cell with two or three live neighbors lives on to the next generation.
+3. Any live cell with more than three live neighbors dies, as if by overpopulation.
+4. Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
 
-### Day 24-25: March 14-15, 2021
+**Thoughts:** I've wanted to recreate this ever since seeing this ages ago.  I accomplished this by creating an array of objects with 3 keys, x, y, and true or false(this decides if it is alive and rendered).  
+We feed either a random order or a predetermined array with a known pattern into the grid and give each square the rules so it then comes alive and doesnt need any input form us. I learned a lot about ReactJS and 
+algorithms in todays project, I love my "job"! :)
 
-**Today's Progress**: -- Portfolio Contact Form -- Today I added functionality to the contact form.  I used states to track the users inputs and send a call function to a module 
-called emailjs, to anyone who hasnt tried it, I highly reccomend! I am in the process of other additions to the portfolio, so expect more to come.
+**Link to work:** [Game of Life ReactJS](https://main.d3k7wfhcelf7xb.amplifyapp.com/)
 
-**Thoughts:** After a weekend of not logging my work for my portfolio I decided to give the contact form some function and I could not be any happier!  This portfolio is coming along
-great and I cant wait to show it to all prospecting employers and friends.
 
-**Link to work:** https://carlo-defilippis.github.io/100-days-of-code/Projects/React%20Portfolio%20Contact%20Form/index.html
+100 Days Of Code, Day 26 of 100:
+
+### Day 26: March 16, 2021
+
+**Today's Progress**: -- Game of Life -- Today I had the pleasure of recreating the game of life with ReactJS and JavaScript. The somewhat famous 'Game of Life', also known simply as 'Life', is a cellular automaton devised by the British mathematician John Horton Conway in 1970. One interacts with the Game of Life by creating an initial configuration and observing how it evolves. It is Turing complete and can simulate a universal constructor or any other Turing machine. There are 4 simple rules:
+1. Any live cell with fewer than two live neighbors dies, as if caused by under population.
+2. Any live cell with two or three live neighbors lives on to the next generation.
+3. Any live cell with more than three live neighbors dies, as if by overpopulation.
+4. Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
+
+**Thoughts:** I've wanted to recreate this ever since seeing this ages ago.  I accomplished this by creating an array of objects with 3 keys, x, y, and true or false(this decides if it is alive and rendered).  
+We feed either a random order or a predetermined array with a known pattern into the grid and give each square the rules so it then comes alive and doesnt need any input form us. I learned a lot about ReactJS and 
+algorithms in todays project, I love my "job" :).
+
+**Link to work:** https://main.d3k7wfhcelf7xb.amplifyapp.com/
 
 #100DaysOfCode
 #algorithm
