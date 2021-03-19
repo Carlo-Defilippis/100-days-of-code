@@ -36,5 +36,5 @@ const happy = [
         output: {happy: 1},
     },
 ];
-
+ 
 module.exports = happy;
