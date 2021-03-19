@@ -223,22 +223,31 @@ algorithms in todays project, I love my "job"! :)
 
 **Link to work:** [Game of Life ReactJS](https://main.d3k7wfhcelf7xb.amplifyapp.com/)
 
+### Day 27: March 17, 2021
 
-100 Days Of Code, Day 26 of 100:
+**Today's Progress**: -- Budget tracker -- this records data of money spent and paid, and if the user is offline its saves your user inputs and it then adds the data to the database when it is back online. We accomplish this by using MongoDB to store the information and if the user goes offline it stores the information in the local storage and once it detects the user online again, it sends the updated list to the database. We used technologies such as MongoDB, express, BootStrap, Mongoose.
 
-### Day 26: March 16, 2021
+**Thoughts:** I remember doing a project much like this in bootcamp, this one looks a lot better with a BootStrap touch to it and in the process I learned that AWS is an awesome platform to host on and faster than Heroku so I am looking forward to moving this and other projects in the future to that service!
 
-**Today's Progress**: -- Game of Life -- Today I had the pleasure of recreating the game of life with ReactJS and JavaScript. The somewhat famous 'Game of Life', also known simply as 'Life', is a cellular automaton devised by the British mathematician John Horton Conway in 1970. One interacts with the Game of Life by creating an initial configuration and observing how it evolves. It is Turing complete and can simulate a universal constructor or any other Turing machine. There are 4 simple rules:
-1. Any live cell with fewer than two live neighbors dies, as if caused by under population.
-2. Any live cell with two or three live neighbors lives on to the next generation.
-3. Any live cell with more than three live neighbors dies, as if by overpopulation.
-4. Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
+**Link to work:** [Budget Tracker](https://budget-tracker-carlo.herokuapp.com/index.html)
 
-**Thoughts:** I've wanted to recreate this ever since seeing this ages ago.  I accomplished this by creating an array of objects with 3 keys, x, y, and true or false(this decides if it is alive and rendered).  
-We feed either a random order or a predetermined array with a known pattern into the grid and give each square the rules so it then comes alive and doesnt need any input form us. I learned a lot about ReactJS and 
-algorithms in todays project, I love my "job" :).
+### Day 28: March 18, 2021
 
-**Link to work:** https://main.d3k7wfhcelf7xb.amplifyapp.com/
+**Today's Progress**: -- Password Generator -- This generates a unique password for the user, the user can choose betweem, lower case, upper case letters, special characters, and numbers. I previously did a project somewhat like this in BootCamp but I totally revamped it with JQuery and Bootstrap for a friendly UI.
+
+**Thoughts:** It was fun to go back to my old project and update if with new technologies that I heard learned since graduating. I plan to revamp a bunch of projects that I did in bootcamp, I'm loving it!
+
+**Link to work:** [Password Generator](https://carlo-defilippis.github.io/Password_Generator/)
+
+100 Days Of Code, Day 28 of 100:
+
+### Day 28: March 18, 2021
+
+**Today's Progress**: -- Password Generator -- This generates a unique password for the user, the user can choose betweem, lower case, upper case letters, special characters, and numbers. I previously did a project somewhat like this in BootCamp but I totally revamped it with JQuery and Bootstrap for a friendly UI.
+
+**Thoughts:** It was fun to go back to my old project and update if with new technologies that I heard learned since graduating. I plan to revamp a bunch of projects that I did in bootcamp, I'm loving it!
+
+**Link to work:** https://carlo-defilippis.github.io/Password_Generator/
 
 #100DaysOfCode
 #algorithm
