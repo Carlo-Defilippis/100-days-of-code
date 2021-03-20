@@ -252,7 +252,7 @@ to working with machine learning in the future!
 
 **Link to work:** [Password Generator](https://carlo-defilippis.github.io/Password_Generator/)
 
-100 Days Of Code, Day 28 of 100:
+100 Days Of Code, Day 29 of 100:
 
 ### Day 29: March 19, 2021
 
@@ -265,7 +265,7 @@ accurate response.
 **Thoughts:** I've always wanted to work with AI's, it is the reason I am currently working on a Desk Robot called "RoBit".  I look forward
 to working with machine learning in the future!
 
-**Link to work:** https://carlo-defilippis.github.io/Password_Generator/
+**Link to work:** https://carlo-defilippis.github.io/100-days-of-code/Projects/emotions/index.html
 
 #100DaysOfCode
 #algorithm
