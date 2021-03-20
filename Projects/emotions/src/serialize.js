@@ -30,7 +30,7 @@ const encodeData = data =>{
         return(
             {
                 input : encode(d.input),
-                output : d.output
+                output : d.output,
             }
         )
     })

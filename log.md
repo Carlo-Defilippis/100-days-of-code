@@ -239,13 +239,31 @@ algorithms in todays project, I love my "job"! :)
 
 **Link to work:** [Password Generator](https://carlo-defilippis.github.io/Password_Generator/)
 
+### Day 29: March 19, 2021
+
+**Today's Progress**: -- Emotions AI -- Today we work with the Brain.JS AI and try to detect the emotion of a sentence, whether it sounds happy or sad.
+We accomplished this by making 2 generic arrays of objects with happy sounding sentences, and another with sound sounding sentences. The 
+AI then runs it through many iterations and determines whether it thinks it sounds happy or sad. The more iterations we run, the more 
+accurate it is. In this video example we run it through 200 iterations. We could run it through a maximum of 20,000 iterations for the most
+accurate response.
+
+**Thoughts:** I've always wanted to work with AI's, it is the reason I am currently working on a Desk Robot called "RoBit".  I look forward
+to working with machine learning in the future!
+
+**Link to work:** [Password Generator](https://carlo-defilippis.github.io/Password_Generator/)
+
 100 Days Of Code, Day 28 of 100:
 
-### Day 28: March 18, 2021
+### Day 29: March 19, 2021
 
-**Today's Progress**: -- Password Generator -- This generates a unique password for the user, the user can choose betweem, lower case, upper case letters, special characters, and numbers. I previously did a project somewhat like this in BootCamp but I totally revamped it with JQuery and Bootstrap for a friendly UI.
+**Today's Progress**: -- Emotions AI -- Today we work with the Brain.JS AI and try to detect the emotion of a sentence, whether it sounds happy or sad.
+We accomplished this by making 2 generic arrays of objects with happy sounding sentences, and another with sound sounding sentences. The 
+AI then runs it through many iterations and determines whether it thinks it sounds happy or sad. The more iterations we run, the more 
+accurate it is. In this video example we run it through 200 iterations. We could run it through a maximum of 20,000 iterations for the most
+accurate response.
 
-**Thoughts:** It was fun to go back to my old project and update if with new technologies that I heard learned since graduating. I plan to revamp a bunch of projects that I did in bootcamp, I'm loving it!
+**Thoughts:** I've always wanted to work with AI's, it is the reason I am currently working on a Desk Robot called "RoBit".  I look forward
+to working with machine learning in the future!
 
 **Link to work:** https://carlo-defilippis.github.io/Password_Generator/
 

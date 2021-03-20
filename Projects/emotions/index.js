@@ -1,8 +1,17 @@
 const brain = require('brain.js');
-const network = new brain.NeuralNetwork();
+const network = new brain.recurrent.LSTM()
 const tdata = require('./src/t-data');
 const serializer = require('./src/serialize');
 
-network.train(serializer.serialize(tdata),{log: true});
-const emotions = network.run(serializer.encode('i had a good day'));
-console.log(emotions)
+function isHappyOrSad(emot) {
+    if (emotions === 'sad') {
+        console.log('This phrase sounds sad to me :(')
+    } else {
+        console.log('This phrase sounds happy to me :)')
+    }
+}
+const myPhrase = "today is a beautiful day"
+
+network.train(tdata,{iterations: 200, log: true});
+const emotions = network.run(myPhrase);
+console.log('The phrase is: ', myPhrase,isHappyOrSad(emotions),'Data: ', emotions)
