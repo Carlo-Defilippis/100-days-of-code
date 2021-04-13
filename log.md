@@ -242,7 +242,7 @@ algorithms in todays project, I love my "job"! :)
 ### Day 29: March 19, 2021
 
 **Today's Progress**: -- Emotions AI -- Today we work with the Brain.JS AI and try to detect the emotion of a sentence, whether it sounds happy or sad.
-We accomplished this by making 2 generic arrays of objects with happy sounding sentences, and another with sound sounding sentences. The 
+We accomplished this by making 2 generic arrays of objects with happy sounding sentences, and another with sad sound sounding sentences. The 
 AI then runs it through many iterations and determines whether it thinks it sounds happy or sad. The more iterations we run, the more 
 accurate it is. In this video example we run it through 200 iterations. We could run it through a maximum of 20,000 iterations for the most
 accurate response.
@@ -254,18 +254,15 @@ to working with machine learning in the future!
 
 100 Days Of Code, Day 29 of 100:
 
-### Day 29: March 19, 2021
+### Day 30-37: March 28, 2021
 
-**Today's Progress**: -- Emotions AI -- Today we work with the Brain.JS AI and try to detect the emotion of a sentence, whether it sounds happy or sad.
-We accomplished this by making 2 generic arrays of objects with happy sounding sentences, and another with sound sounding sentences. The 
-AI then runs it through many iterations and determines whether it thinks it sounds happy or sad. The more iterations we run, the more 
-accurate it is. In this video example we run it through 200 iterations. We could run it through a maximum of 20,000 iterations for the most
-accurate response.
+**Today's Progress**: -- React Website with Database, User authentication, and dynamic pages -- This whole week and for a while longer I will be
+working on a project that me and a friend thought up.  I won't get into specifics yet, but its been a blast learning all the ins and outs of React
+as well as many many other technoligies including AWS Auth, React-Boostrap, AWS Cognito etc.
 
-**Thoughts:** I've always wanted to work with AI's, it is the reason I am currently working on a Desk Robot called "RoBit".  I look forward
-to working with machine learning in the future!
+**Thoughts:** I'll update everyone soon with a finished project but in the meantime here is a screenshot to show my green dots for the past week!
 
-**Link to work:** https://carlo-defilippis.github.io/100-days-of-code/Projects/emotions/index.html
+**Link to work:** https://ibb.co/LSDNMHy
 
 #100DaysOfCode
 #algorithm
