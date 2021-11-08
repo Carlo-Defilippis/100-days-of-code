@@ -2,6 +2,14 @@ $(document).ready(function () {
 
         $('.rec-action').hide()
 
+        let myAffiliates = []
+
+        let myNames = $('.link-is-positive').text() + ' #*& ';
+
+        let summary = $('.summary-text').html()
+
+        console.log(myNames, summary)
+
     // $('.loading').hide()
   
     // let myMainArray = []
