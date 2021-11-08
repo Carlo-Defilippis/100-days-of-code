@@ -252,17 +252,28 @@ to working with machine learning in the future!
 
 **Link to work:** [Password Generator](https://carlo-defilippis.github.io/Password_Generator/)
 
-100 Days Of Code, Day 29 of 100:
+100 Days Of Code, Day 48 of 100:
 
-### Day 30-37: March 28, 2021
+### Day 38-48: April 12, 2021
 
-**Today's Progress**: -- React Website with Database, User authentication, and dynamic pages -- This whole week and for a while longer I will be
-working on a project that me and a friend thought up.  I won't get into specifics yet, but its been a blast learning all the ins and outs of React
-as well as many many other technoligies including AWS Auth, React-Boostrap, AWS Cognito etc.
+**Project Progress**: -- Formeazy PDF Documents -- This may be a long post, hopefully LinkedIn will give me enough characters to type =).  So on day 30
+of my 100 day challenge, a friend approached me with a problem in his industry(he's a police officer).  And he stated that filling out old fashion paper work
+is such a time sink that he could be using more wisely, as in protecting citizians.  This gave me the idea to get started on the website that I have been working on.
+My plans for this website will be to have any company or person upload a pdf, then define the fields with a selection box, and my app will take this info
+and print out a easily followable and readable form that the user can fill out or send to any customers through a link.  This form will have support for check box options,
+drawing diagrams(for some police reports), text fields and of course signatures(see image example below). Now this is a mighty task to achieve, I agree I do have big dreams but I also 
+believe that people would benefit through this so I am very motivated in finishing this site soon.  I have ran into so many obsticals but I have worked my way through
+ALL of them, with a little bit of research and determination!  
 
-**Thoughts:** I'll update everyone soon with a finished project but in the meantime here is a screenshot to show my green dots for the past week!
+**Thoughts:** Gatsby is a very versitile react wrapper that is great for SEO but it does take some time to get used to. Because all the pages are loaded dynmically, if any line of code
+(including dependancies) needs to access "window" than the app will not build and give errors when building the app on the server.  After countless trial and errors I ended
+up finding a great solution to this problem(its a plugin called "loadable") thats makes sure to load all needed pages if it needs access to window which was a real time saver.
+I have been messing with pdf libraries for the past week and I am trying to find one that fits my needs and is very customizable because there isnt many options out there
+for what I am trying to achieve. I am currently using PDF.js which is made by mozilla and it is fitting my needs well!(if anyone has tips I'm open to and appreciate all!). 
+I would love to talk more about the project as I barely listed 10% of what I've been struggling, learning, loving so far but LinkIn insists I stop writing! Thank you for reading
+and I will keep posting updates!
 
-**Link to work:** https://ibb.co/LSDNMHy
+**Link to work:** 
 
 #100DaysOfCode
 #algorithm
